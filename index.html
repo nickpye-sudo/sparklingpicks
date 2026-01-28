@@ -9,110 +9,7 @@
     <meta property="og:description" content="Tested & reviewed cleaning products. See what actually works.">
     <meta property="og:type" content="website">
     <link rel="canonical" href="https://sparklingpicks.com/">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
-        
-        /* Header */
-        header { background: linear-gradient(135deg, #00b894, #00a187); color: white; padding: 30px 0; }
-        header h1 { font-size: 2rem; }
-        header p { opacity: 0.9; }
-        
-        /* Nav */
-        nav { background: #fff; border-bottom: 2px solid #00b894; padding: 12px 0; position: sticky; top: 0; z-index: 100; }
-        nav a { margin-right: 20px; text-decoration: none; color: #00b894; font-weight: 600; }
-        nav a:hover { text-decoration: underline; }
-        
-        /* Hero */
-        .hero { background: #f8f9fa; padding: 40px 0; text-align: center; border-bottom: 1px solid #eee; }
-        .hero h2 { font-size: 2rem; color: #2d3436; margin-bottom: 10px; }
-        .hero p { font-size: 1.1rem; color: #666; }
-        .hero-badge { display: inline-block; background: #00b894; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 15px; }
-        
-        /* Winner Banner */
-        .winner-banner { background: linear-gradient(135deg, #ffeaa7, #fdcb6e); padding: 30px 0; text-align: center; }
-        .winner-banner h2 { color: #2d3436; margin-bottom: 20px; }
-        .winner-product { display: inline-flex; align-items: center; gap: 20px; background: white; padding: 20px 30px; border-radius: 15px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); flex-wrap: wrap; justify-content: center; }
-        .winner-product img { width: 100px; height: 100px; object-fit: contain; }
-        .winner-info { text-align: left; }
-        .winner-info h3 { font-size: 1.3rem; color: #2d3436; }
-        .winner-info .price { font-size: 1.5rem; color: #00b894; font-weight: bold; }
-        .winner-info .rating { color: #f39c12; }
-        
-        /* Big CTA Button */
-        .btn-big { display: inline-block; background: #ff6b35; color: white; padding: 15px 40px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1rem; transition: all 0.2s; box-shadow: 0 4px 15px rgba(255,107,53,0.3); }
-        .btn-big:hover { background: #e55a2b; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(255,107,53,0.4); }
-        .btn { display: inline-block; background: #ff6b35; color: white; padding: 12px 25px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: all 0.2s; }
-        .btn:hover { background: #e55a2b; }
-        .btn-green { background: #00b894; }
-        .btn-green:hover { background: #00a187; }
-        
-        /* Product Grid */
-        .products-section { padding: 50px 0; }
-        .products-section h2 { text-align: center; margin-bottom: 10px; font-size: 1.8rem; }
-        .products-section .subtitle { text-align: center; color: #666; margin-bottom: 30px; }
-        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
-        
-        /* Product Card */
-        .product-card { background: white; border: 2px solid #eee; border-radius: 12px; padding: 25px; text-align: center; transition: all 0.2s; position: relative; }
-        .product-card:hover { border-color: #00b894; box-shadow: 0 8px 30px rgba(0,0,0,0.1); }
-        .product-card.featured { border-color: #ffd700; }
-        .product-card.featured::before { content: "⭐ BEST SELLER"; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #ffd700; color: #333; padding: 5px 15px; border-radius: 20px; font-size: 0.75rem; font-weight: bold; }
-        .product-card img { width: 140px; height: 140px; object-fit: contain; margin-bottom: 15px; }
-        .product-card h3 { font-size: 1.1rem; margin-bottom: 8px; color: #2d3436; }
-        .product-card .rating { color: #f39c12; font-size: 1.1rem; margin-bottom: 5px; }
-        .product-card .reviews { color: #888; font-size: 0.85rem; margin-bottom: 10px; }
-        .product-card .price { font-size: 1.4rem; color: #00b894; font-weight: bold; margin-bottom: 5px; }
-        .product-card .price-note { font-size: 0.8rem; color: #888; margin-bottom: 15px; }
-        .product-card .pros { text-align: left; font-size: 0.85rem; color: #555; margin-bottom: 15px; padding-left: 5px; }
-        .product-card .pros li { margin-bottom: 5px; }
-        .product-card .pros li::marker { content: "✓ "; color: #00b894; }
-        
-        /* Categories */
-        .categories { background: #f8f9fa; padding: 50px 0; }
-        .cat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-        .cat-card { background: white; border-radius: 12px; padding: 30px 20px; text-align: center; text-decoration: none; color: inherit; transition: all 0.2s; border: 2px solid transparent; }
-        .cat-card:hover { border-color: #00b894; transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
-        .cat-card .icon { font-size: 3rem; margin-bottom: 15px; }
-        .cat-card h3 { color: #2d3436; margin-bottom: 8px; }
-        .cat-card p { color: #666; font-size: 0.9rem; }
-        
-        /* Comparison Table */
-        .comparison { padding: 50px 0; background: white; }
-        .comparison h2 { text-align: center; margin-bottom: 30px; }
-        .comparison-table { width: 100%; border-collapse: collapse; }
-        .comparison-table th, .comparison-table td { padding: 15px; text-align: left; border-bottom: 1px solid #eee; }
-        .comparison-table th { background: #f8f9fa; font-weight: 600; }
-        .comparison-table tr:hover { background: #f8f9fa; }
-        .comparison-table .check { color: #00b894; font-weight: bold; }
-        .comparison-table .x { color: #e74c3c; }
-        
-        /* Trust Section */
-        .trust { padding: 40px 0; background: #2d3436; color: white; }
-        .trust-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; text-align: center; }
-        .trust-item .num { font-size: 2.5rem; color: #00cec9; font-weight: bold; }
-        .trust-item p { opacity: 0.9; }
-        
-        /* Affiliate Notice */
-        .affiliate { background: #fff3cd; padding: 12px 20px; text-align: center; font-size: 0.85rem; border-bottom: 1px solid #ffc107; }
-        
-        /* Footer */
-        footer { background: #1a1a2e; color: white; padding: 40px 0; text-align: center; }
-        footer a { color: #00cec9; }
-        
-        /* Urgency */
-        .urgency { color: #e74c3c; font-size: 0.85rem; margin-bottom: 10px; }
-        
-        @media (max-width: 768px) {
-            header h1 { font-size: 1.5rem; }
-            .hero h2 { font-size: 1.5rem; }
-            .winner-product { flex-direction: column; text-align: center; }
-            .winner-info { text-align: center; }
-            .comparison-table { font-size: 0.85rem; }
-            .comparison-table th, .comparison-table td { padding: 10px 8px; }
-        }
-    </style>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
     <div class="affiliate">
@@ -126,7 +23,7 @@
         </div>
     </header>
     
-        <nav>
+    <nav>
         <div class="container">
             <a href="/">Home</a>
             <a href="/laundry-detergent.html">Laundry</a>
@@ -149,14 +46,14 @@
         <div class="container">
             <h2>🥇 Our #1 Pick for 2026</h2>
             <div class="winner-product">
-                <img src="images/fairy-platinum.jpg" alt="Fairy Platinum">
+                <img src="https://m.media-amazon.co.uk/images/I/71RPXTqXpaL._AC_SL1500_.jpg" alt="Fairy Platinum Washing Up Liquid" width="120" height="120">
                 <div class="winner-info">
                     <h3>Fairy Platinum Washing Up Liquid</h3>
                     <div class="rating">★★★★★ <span style="color:#666">(12,000+ reviews)</span></div>
                     <div class="price">From £2.50</div>
                     <p style="color:#666; margin: 10px 0;">Best grease-cutting power we tested</p>
                 </div>
-                <a href="https://www.amazon.co.uk/s?k=fairy+platinum+washing+up+liquid&tag=sparklingpicks-21" class="btn-big" target="_blank" rel="nofollow sponsored noopener">Check Price on Amazon →</a>
+                <a href="https://www.amazon.co.uk/dp/B08MWKC1JK?tag=sparklingpicks-21" class="btn btn-primary btn-big" target="_blank" rel="nofollow sponsored noopener">Check Price on Amazon →</a>
             </div>
         </div>
     </div>
@@ -168,7 +65,7 @@
             
             <div class="product-grid">
                 <div class="product-card featured">
-                    <img src="images/fairy-platinum.jpg" alt="Fairy Platinum">
+                    <img src="https://m.media-amazon.co.uk/images/I/71RPXTqXpaL._AC_SL1500_.jpg" alt="Fairy Platinum Washing Up Liquid" loading="lazy">
                     <h3>Fairy Platinum</h3>
                     <div class="rating">★★★★★</div>
                     <div class="reviews">12,847 reviews</div>
@@ -179,11 +76,11 @@
                         <li>Lasts 3x longer than budget brands</li>
                         <li>UK's #1 seller</li>
                     </ul>
-                    <a href="https://www.amazon.co.uk/s?k=fairy+platinum+washing+up+liquid&tag=sparklingpicks-21" class="btn" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
+                    <a href="https://www.amazon.co.uk/dp/B08MWKC1JK?tag=sparklingpicks-21" class="btn btn-primary" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
                 </div>
                 
                 <div class="product-card">
-                    <img src="images/ecover.jpg" alt="Ecover">
+                    <img src="https://m.media-amazon.co.uk/images/I/61mHsVhHbJL._AC_SL1500_.jpg" alt="Ecover Washing Up Liquid" loading="lazy">
                     <h3>Ecover Zero</h3>
                     <div class="rating">★★★★☆</div>
                     <div class="reviews">3,892 reviews</div>
@@ -194,12 +91,12 @@
                         <li>Great for sensitive skin</li>
                         <li>B Corp certified</li>
                     </ul>
-                    <a href="https://www.amazon.co.uk/s?k=ecover+washing+up+liquid&tag=sparklingpicks-21" class="btn btn-green" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
+                    <a href="https://www.amazon.co.uk/dp/B01F0SOOZE?tag=sparklingpicks-21" class="btn btn-green" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
                 </div>
                 
                 <div class="product-card">
-                    <img src="images/method.jpg" alt="Method">
-                    <h3>Method All-Purpose</h3>
+                    <img src="https://m.media-amazon.co.uk/images/I/61UdB9j9SDL._AC_SL1000_.jpg" alt="Method Washing Up Liquid" loading="lazy">
+                    <h3>Method Washing Up Liquid</h3>
                     <div class="rating">★★★★★</div>
                     <div class="reviews">5,420 reviews</div>
                     <div class="price">£3.00 - £4.50</div>
@@ -209,7 +106,7 @@
                         <li>Non-toxic formula</li>
                         <li>Looks great on counter</li>
                     </ul>
-                    <a href="https://www.amazon.co.uk/s?k=method+cleaning+products&tag=sparklingpicks-21" class="btn btn-green" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
+                    <a href="https://www.amazon.co.uk/dp/B07BHKRQC8?tag=sparklingpicks-21" class="btn btn-green" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
                 </div>
             </div>
             
@@ -226,7 +123,7 @@
             
             <div class="product-grid">
                 <div class="product-card featured">
-                    <img src="images/pink-stuff.jpg" alt="The Pink Stuff">
+                    <img src="https://m.media-amazon.co.uk/images/I/61XL5LY25LL._AC_SL1500_.jpg" alt="The Pink Stuff Cleaning Paste" loading="lazy">
                     <h3>The Pink Stuff</h3>
                     <div class="rating">★★★★★</div>
                     <div class="reviews">89,000+ reviews</div>
@@ -238,11 +135,11 @@
                         <li>Works on everything</li>
                         <li>Incredible value</li>
                     </ul>
-                    <a href="https://www.amazon.co.uk/s?k=the+pink+stuff+cleaning+paste&tag=sparklingpicks-21" class="btn" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
+                    <a href="https://www.amazon.co.uk/dp/B00T0BQUKU?tag=sparklingpicks-21" class="btn btn-primary" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
                 </div>
                 
                 <div class="product-card">
-                    <img src="images/method.jpg" alt="Method Surface Spray">
+                    <img src="https://m.media-amazon.co.uk/images/I/61g5VvBYAQL._AC_SL1500_.jpg" alt="Method Anti-Bac All Purpose Cleaner" loading="lazy">
                     <h3>Method Antibac Spray</h3>
                     <div class="rating">★★★★★</div>
                     <div class="reviews">4,200 reviews</div>
@@ -253,11 +150,11 @@
                         <li>Incredible smell</li>
                         <li>Plant-based</li>
                     </ul>
-                    <a href="https://www.amazon.co.uk/s?k=method+antibac+spray&tag=sparklingpicks-21" class="btn btn-green" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
+                    <a href="https://www.amazon.co.uk/dp/B07BHMTTNR?tag=sparklingpicks-21" class="btn btn-green" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
                 </div>
                 
                 <div class="product-card">
-                    <img src="images/ecover.jpg" alt="Ecover Multi-Surface">
+                    <img src="https://m.media-amazon.co.uk/images/I/71Vn+u2WKFL._AC_SL1500_.jpg" alt="Ecover Multi-Surface Cleaner" loading="lazy">
                     <h3>Ecover Multi-Surface</h3>
                     <div class="rating">★★★★☆</div>
                     <div class="reviews">2,100 reviews</div>
@@ -268,7 +165,7 @@
                         <li>Biodegradable</li>
                         <li>Septic tank safe</li>
                     </ul>
-                    <a href="https://www.amazon.co.uk/s?k=ecover+multi+surface+cleaner&tag=sparklingpicks-21" class="btn btn-green" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
+                    <a href="https://www.amazon.co.uk/dp/B00FXLDNVC?tag=sparklingpicks-21" class="btn btn-green" target="_blank" rel="nofollow sponsored noopener">View on Amazon →</a>
                 </div>
             </div>
             
@@ -405,7 +302,7 @@
                         <td class="check">★★★★★</td>
                         <td class="x">✗</td>
                         <td class="check">✓</td>
-                        <td><a href="https://www.amazon.co.uk/s?k=fairy+platinum&tag=sparklingpicks-21" class="btn" style="padding:8px 15px; font-size:0.85rem;" target="_blank" rel="nofollow sponsored noopener">Buy →</a></td>
+                        <td><a href="https://www.amazon.co.uk/dp/B08MWKC1JK?tag=sparklingpicks-21" class="btn btn-primary" style="padding:8px 15px; font-size:0.85rem;" target="_blank" rel="nofollow sponsored noopener">Buy →</a></td>
                     </tr>
                     <tr>
                         <td><strong>Ecover Zero</strong></td>
@@ -413,7 +310,7 @@
                         <td class="check">★★★★☆</td>
                         <td class="check">✓</td>
                         <td class="check">✓</td>
-                        <td><a href="https://www.amazon.co.uk/s?k=ecover+zero&tag=sparklingpicks-21" class="btn btn-green" style="padding:8px 15px; font-size:0.85rem;" target="_blank" rel="nofollow sponsored noopener">Buy →</a></td>
+                        <td><a href="https://www.amazon.co.uk/dp/B01F0SOOZE?tag=sparklingpicks-21" class="btn btn-green" style="padding:8px 15px; font-size:0.85rem;" target="_blank" rel="nofollow sponsored noopener">Buy →</a></td>
                     </tr>
                     <tr>
                         <td><strong>Method</strong></td>
@@ -421,7 +318,7 @@
                         <td class="check">★★★★☆</td>
                         <td class="check">✓</td>
                         <td class="check">✓</td>
-                        <td><a href="https://www.amazon.co.uk/s?k=method+dish+soap&tag=sparklingpicks-21" class="btn btn-green" style="padding:8px 15px; font-size:0.85rem;" target="_blank" rel="nofollow sponsored noopener">Buy →</a></td>
+                        <td><a href="https://www.amazon.co.uk/dp/B07BHKRQC8?tag=sparklingpicks-21" class="btn btn-green" style="padding:8px 15px; font-size:0.85rem;" target="_blank" rel="nofollow sponsored noopener">Buy →</a></td>
                     </tr>
                     <tr>
                         <td><strong>Morning Fresh</strong></td>
@@ -429,7 +326,7 @@
                         <td class="check">★★★☆☆</td>
                         <td class="x">✗</td>
                         <td class="check">✓</td>
-                        <td><a href="https://www.amazon.co.uk/s?k=morning+fresh+washing+up&tag=sparklingpicks-21" class="btn" style="padding:8px 15px; font-size:0.85rem;" target="_blank" rel="nofollow sponsored noopener">Buy →</a></td>
+                        <td><a href="https://www.amazon.co.uk/dp/B077PRG31Q?tag=sparklingpicks-21" class="btn btn-primary" style="padding:8px 15px; font-size:0.85rem;" target="_blank" rel="nofollow sponsored noopener">Buy →</a></td>
                     </tr>
                     <tr>
                         <td><strong>Aldi Magnum</strong></td>
@@ -478,5 +375,6 @@
             <p style="margin-top:10px; font-size:0.85rem; opacity:0.7;">As an Amazon Associate, we earn from qualifying purchases.</p>
         </div>
     </footer>
+<script src="/assets/geo-links.js"></script>
 </body>
 </html>
