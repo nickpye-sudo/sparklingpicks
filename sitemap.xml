@@ -49,6 +49,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://sparklingpicks.com/sodastream-models.html</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/how-to-choose-soda-maker.html</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://sparklingpicks.com/is-soda-maker-worth-it.html</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -61,10 +73,22 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sparklingpicks.com/sodastream-models.html</loc>
+    <loc>https://sparklingpicks.com/best-soda-maker-for-families.html</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/best-soda-maker-for-apartments.html</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/soda-maker-troubleshooting.html</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sparklingpicks.com/about.html</loc>
