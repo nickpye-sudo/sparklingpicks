@@ -3,71 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sparkling Picks — Expert Product Reviews & Buying Guides 2026</title>
-    <meta name="description" content="Expert reviews and comparisons of the best products. Power stations, robot vacuums, soda makers and more. Find the perfect pick for your needs.">
+    <title>Best Portable Power Stations, Robot Vacuums & Soda Makers 2026 | Sparkling Picks</title>
+    <meta name="description" content="Expert-tested product recommendations. Find the #1 portable power station, robot vacuum, and soda maker — with today's best prices on Amazon.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="canonical" href="https://sparklingpicks.com/">
     <link rel="stylesheet" href="assets/styles.css">
     <style>
-        .category-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            margin: 3rem 0;
+        .hero-product {
+            background: linear-gradient(135deg, #171717 0%, #262626 100%);
+            padding: 2rem 0 3rem;
         }
-        .category-card {
+        .hero-product-inner {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 3rem;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .hero-product-image {
             background: white;
             border-radius: 1.5rem;
-            overflow: hidden;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            transition: all 0.3s ease;
-            text-decoration: none;
-            color: inherit;
-        }
-        .category-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-        }
-        .category-header {
             padding: 2rem;
             text-align: center;
         }
-        .category-header.power { background: linear-gradient(135deg, #7c2d12, #f97316); }
-        .category-header.vacuum { background: linear-gradient(135deg, #14532d, #22c55e); }
-        .category-header.soda { background: linear-gradient(135deg, #0c4a6e, #0891b2); }
-        .category-header h3 { color: white; margin: 0 0 0.5rem; font-size: 1.5rem; }
-        .category-header p { color: rgba(255,255,255,0.85); margin: 0; font-size: 0.9rem; }
-        .category-products {
+        .hero-product-image img {
+            max-width: 280px;
+            height: auto;
+        }
+        .hero-product-content {
+            color: white;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: #f97316;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .hero-product-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin: 0 0 0.5rem;
+            line-height: 1.1;
+        }
+        .hero-product-subtitle {
+            color: rgba(255,255,255,0.7);
+            font-size: 1.1rem;
+            margin: 0 0 1rem;
+        }
+        .hero-rating {
+            color: #fbbf24;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .hero-reviews {
+            color: rgba(255,255,255,0.6);
+            font-size: 0.875rem;
+            margin-bottom: 1.5rem;
+        }
+        .hero-price {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #22c55e;
+            margin-bottom: 1rem;
+        }
+        .btn-amazon {
+            display: inline-block;
+            background: #f97316;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            box-shadow: 0 4px 14px rgba(249,115,22,0.4);
+        }
+        .btn-amazon:hover {
+            background: #ea580c;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(249,115,22,0.5);
+        }
+        .hero-alternatives {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        .hero-alternatives-title {
+            color: rgba(255,255,255,0.5);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.75rem;
+        }
+        .hero-alt-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+        }
+        .hero-alt-item a {
+            color: #60a5fa;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        .hero-alt-item a:hover {
+            text-decoration: underline;
+        }
+        .hero-alt-label {
+            color: rgba(255,255,255,0.6);
+            font-size: 0.8rem;
+        }
+        .hero-alt-price {
+            color: white;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .products-section {
+            padding: 3rem 0;
+            background: #f9fafb;
+        }
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.25rem;
+        }
+        .product-card {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.25rem;
+            text-align: center;
+            border: 2px solid #e5e7eb;
+            transition: all 0.2s;
+        }
+        .product-card:hover {
+            border-color: #f97316;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+        .product-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 0.75rem;
+        }
+        .product-card-name {
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+            color: #171717;
+        }
+        .product-card-price {
+            color: #22c55e;
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+        }
+        .product-card .btn-small {
+            display: block;
+            background: #171717;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.6rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .product-card .btn-small:hover {
+            background: #f97316;
+        }
+        
+        .categories-section {
+            padding: 3rem 0;
+        }
+        .categories-list {
             display: flex;
             justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .category-link {
+            display: flex;
+            align-items: center;
             gap: 0.5rem;
-            padding: 1.5rem;
-            background: #fafafa;
-        }
-        .category-products img {
-            width: 70px;
-            height: 90px;
-            object-fit: cover;
-            object-position: center;
-            background: white;
+            padding: 1rem 1.5rem;
+            background: #f3f4f6;
             border-radius: 0.75rem;
-            padding: 0.25rem;
-            border: 3px solid white;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
-        }
-        .category-cta {
-            padding: 1.5rem 2rem;
-            text-align: center;
-            border-top: 1px solid #eee;
-        }
-        .category-cta span {
-            color: #0891b2;
+            text-decoration: none;
+            color: #171717;
             font-weight: 600;
+            transition: all 0.2s;
         }
+        .category-link:hover {
+            background: #171717;
+            color: white;
+        }
+        
         @media (max-width: 900px) {
-            .category-grid { grid-template-columns: 1fr; }
+            .hero-product-inner {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .hero-product-title {
+                font-size: 1.75rem;
+            }
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
     </style>
 </head>
@@ -88,151 +240,116 @@
     </div>
 </header>
 
-<!-- Hero -->
-<section style="background: linear-gradient(135deg, #171717 0%, #262626 100%); padding: 5rem 0; text-align: center;">
+<!-- HERO: #1 Product with Amazon CTA -->
+<section class="hero-product">
     <div class="container">
-        <span style="display: inline-block; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); padding: 0.5rem 1rem; border-radius: 2rem; font-size: 0.875rem; color: rgba(255,255,255,0.8); margin-bottom: 1.5rem;">✦ Trusted Product Reviews</span>
-        <h1 style="color: white; font-size: 3rem; margin: 0 0 1rem; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.2;">Find the Best Products for Your Home</h1>
-        <p style="color: rgba(255,255,255,0.7); font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem;">Expert reviews, real testing, honest recommendations. We test so you don't have to.</p>
+        <div class="hero-product-inner">
+            <div class="hero-product-image">
+                <a href="https://www.amazon.co.uk/s?k=Jackery+Explorer+1000+Plus&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener">
+                    <img src="assets/images/jackery-1000.png" alt="Jackery Explorer 1000 Plus">
+                </a>
+            </div>
+            <div class="hero-product-content">
+                <span class="hero-badge">🏆 Our #1 Pick for 2026</span>
+                <h1 class="hero-product-title">Jackery Explorer 1000 Plus</h1>
+                <p class="hero-product-subtitle">The best portable power station for camping, emergencies & home backup</p>
+                <div class="hero-rating">★★★★★</div>
+                <div class="hero-reviews">4,200+ verified reviews</div>
+                <div class="hero-price">$1,299</div>
+                <a href="https://www.amazon.co.uk/s?k=Jackery+Explorer+1000+Plus&tag=sparklingpicks-21" class="btn-amazon" target="_blank" rel="nofollow sponsored noopener">
+                    Buy on Amazon — $1,299
+                </a>
+                
+                <div class="hero-alternatives">
+                    <div class="hero-alternatives-title">Quick Alternatives</div>
+                    <div class="hero-alt-item">
+                        <span class="hero-alt-label">💰 Best Value:</span>
+                        <a href="https://www.amazon.co.uk/s?k=EcoFlow+Delta+2&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener">EcoFlow Delta 2</a>
+                        <span class="hero-alt-price">$999</span>
+                    </div>
+                    <div class="hero-alt-item">
+                        <span class="hero-alt-label">🎯 Budget Pick:</span>
+                        <a href="https://www.amazon.co.uk/s?k=Jackery+Explorer+500&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener">Jackery 500</a>
+                        <span class="hero-alt-price">$449</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- Category Cards -->
-<section style="padding: 4rem 0; background: #f5f5f5;">
+<!-- TOP PRODUCTS: Direct Amazon Links -->
+<section class="products-section">
     <div class="container">
-        <h2 style="text-align: center; margin: 0 0 0.5rem;">What Are You Looking For?</h2>
-        <p style="text-align: center; color: #737373; margin: 0 0 3rem;">Choose a category to find the best products</p>
+        <h2 style="text-align: center; margin: 0 0 0.5rem; font-size: 1.5rem;">Top Picks Across Categories</h2>
+        <p style="text-align: center; color: #6b7280; margin: 0 0 2rem; font-size: 0.9rem;">Today's best deals on our highest-rated products</p>
         
-        <div class="category-grid">
-            <!-- Power Stations -->
-            <a href="/power-stations/best-portable-power-station.html" class="category-card">
-                <div class="category-header power">
-                    <h3>⚡ Portable Power Stations</h3>
-                    <p>Backup power for camping, emergencies & off-grid</p>
-                </div>
-                <div class="category-products">
-                    <img src="assets/images/jackery-1000.png?v=1770562876" alt="Jackery">
-                    <img src="assets/images/ecoflow-delta2.png?v=1770562876" alt="EcoFlow">
-                    <img src="assets/images/bluetti-ac200.png?v=1770562876" alt="Bluetti">
-                </div>
-                <div class="category-cta">
-                    <span>View Best Power Stations →</span>
-                </div>
-            </a>
-
-            <!-- Robot Vacuums -->
-            <a href="/robot-vacuums/best-robot-vacuum.html" class="category-card">
-                <div class="category-header vacuum">
-                    <h3>🤖 Robot Vacuums</h3>
-                    <p>Hands-free cleaning for every home</p>
-                </div>
-                <div class="category-products">
-                    <img src="assets/images/roomba-j7.png?v=1770562876" alt="Roomba j7+">
-                    <img src="assets/images/roborock-s8.png?v=1770562876" alt="Roborock S8">
-                    <img src="assets/images/roomba-s9.png?v=1770562876" alt="Roomba S9+">
-                </div>
-                <div class="category-cta">
-                    <span>View Best Robot Vacuums →</span>
-                </div>
-            </a>
-
-            <!-- Soda Makers -->
-            <a href="/best-soda-makers.html" class="category-card">
-                <div class="category-header soda">
-                    <h3>💧 Soda Makers</h3>
-                    <p>Fresh sparkling water at home</p>
-                </div>
-                <div class="category-products">
-                    <img src="assets/images/terra.png?v=1770562876" alt="SodaStream Terra">
-                    <img src="assets/images/aarke.png?v=1770562876" alt="Aarke">
-                    <img src="assets/images/duo.png?v=1770562876" alt="SodaStream Duo">
-                </div>
-                <div class="category-cta">
-                    <span>View Best Soda Makers →</span>
-                </div>
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- Featured Picks -->
-<section style="padding: 4rem 0;">
-    <div class="container">
-        <h2 style="text-align: center; margin: 0 0 0.5rem;">Top Picks Across All Categories</h2>
-        <p style="text-align: center; color: #737373; margin: 0 0 3rem;">Our highest-rated products right now</p>
-        
-        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;">
-            <div style="background: white; border-radius: 1rem; padding: 1.5rem; text-align: center; border: 2px solid #f97316;">
-                <div style="background: #f97316; color: white; font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 1rem; display: inline-block; margin-bottom: 1rem;">POWER</div>
-                <a href="https://www.amazon.co.uk/s?k=Jackery+1000+Plus&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener"><img src="assets/images/jackery-1000.png?v=1770562876" alt="Jackery 1000 Plus" style="width: 100px; height: 120px; object-fit: contain; margin: 0 auto 1rem;"></a>
-                <h4 style="margin: 0 0 0.25rem; font-size: 1rem;">Jackery 1000 Plus</h4>
-                <div style="color: #f97316; font-weight: 700;">$1,299</div>
-                <a href="https://www.amazon.co.uk/s?k=Jackery+1000+Plus&tag=sparklingpicks-21" class="btn btn-primary" style="margin-top: 1rem; font-size: 0.875rem;" target="_blank" rel="nofollow sponsored noopener">Check Price →</a>
+        <div class="products-grid">
+            <div class="product-card">
+                <a href="https://www.amazon.co.uk/s?k=EcoFlow+Delta+2&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener">
+                    <img src="assets/images/ecoflow-delta2.png" alt="EcoFlow Delta 2">
+                </a>
+                <div class="product-card-name">EcoFlow Delta 2</div>
+                <div class="product-card-price">$999</div>
+                <a href="https://www.amazon.co.uk/s?k=EcoFlow+Delta+2&tag=sparklingpicks-21" class="btn-small" target="_blank" rel="nofollow sponsored noopener">Buy on Amazon</a>
             </div>
             
-            <div style="background: white; border-radius: 1rem; padding: 1.5rem; text-align: center; border: 2px solid #22c55e;">
-                <div style="background: #22c55e; color: white; font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 1rem; display: inline-block; margin-bottom: 1rem;">VACUUM</div>
-                <a href="https://www.amazon.co.uk/s?k=iRobot+Roomba+j7&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener"><img src="assets/images/roomba-j7.png?v=1770562876" alt="Roomba j7+" style="width: 100px; height: 120px; object-fit: contain; margin: 0 auto 1rem;"></a>
-                <h4 style="margin: 0 0 0.25rem; font-size: 1rem;">Roomba j7+</h4>
-                <div style="color: #22c55e; font-weight: 700;">$799</div>
-                <a href="https://www.amazon.co.uk/s?k=iRobot+Roomba+j7&tag=sparklingpicks-21" class="btn btn-primary" style="margin-top: 1rem; font-size: 0.875rem;" target="_blank" rel="nofollow sponsored noopener">Check Price →</a>
+            <div class="product-card">
+                <a href="https://www.amazon.co.uk/s?k=iRobot+Roomba+j7&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener">
+                    <img src="assets/images/roomba-j7.png" alt="Roomba j7+">
+                </a>
+                <div class="product-card-name">Roomba j7+</div>
+                <div class="product-card-price">$799</div>
+                <a href="https://www.amazon.co.uk/s?k=iRobot+Roomba+j7&tag=sparklingpicks-21" class="btn-small" target="_blank" rel="nofollow sponsored noopener">Buy on Amazon</a>
             </div>
             
-            <div style="background: white; border-radius: 1rem; padding: 1.5rem; text-align: center; border: 2px solid #0891b2;">
-                <div style="background: #0891b2; color: white; font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 1rem; display: inline-block; margin-bottom: 1rem;">SODA</div>
-                <a href="https://www.amazon.co.uk/s?k=SodaStream+Terra&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener"><img src="assets/images/terra.png?v=1770562876" alt="SodaStream Terra" style="width: 100px; height: 120px; object-fit: contain; margin: 0 auto 1rem;"></a>
-                <h4 style="margin: 0 0 0.25rem; font-size: 1rem;">SodaStream Terra</h4>
-                <div style="color: #0891b2; font-weight: 700;">$89</div>
-                <a href="https://www.amazon.co.uk/s?k=SodaStream+Terra&tag=sparklingpicks-21" class="btn btn-primary" style="margin-top: 1rem; font-size: 0.875rem;" target="_blank" rel="nofollow sponsored noopener">Check Price →</a>
+            <div class="product-card">
+                <a href="https://www.amazon.co.uk/s?k=Roborock+S8+Pro+Ultra&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener">
+                    <img src="assets/images/roborock-s8.png" alt="Roborock S8 Pro">
+                </a>
+                <div class="product-card-name">Roborock S8 Pro</div>
+                <div class="product-card-price">$1,399</div>
+                <a href="https://www.amazon.co.uk/s?k=Roborock+S8+Pro+Ultra&tag=sparklingpicks-21" class="btn-small" target="_blank" rel="nofollow sponsored noopener">Buy on Amazon</a>
             </div>
             
-            <div style="background: white; border-radius: 1rem; padding: 1.5rem; text-align: center; border: 2px solid #3b82f6;">
-                <div style="background: #3b82f6; color: white; font-size: 0.7rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 1rem; display: inline-block; margin-bottom: 1rem;">POWER</div>
-                <a href="https://www.amazon.co.uk/s?k=EcoFlow+Delta+2&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener"><img src="assets/images/ecoflow-delta2.png?v=1770562876" alt="EcoFlow Delta 2" style="width: 100px; height: 120px; object-fit: contain; margin: 0 auto 1rem;"></a>
-                <h4 style="margin: 0 0 0.25rem; font-size: 1rem;">EcoFlow Delta 2</h4>
-                <div style="color: #3b82f6; font-weight: 700;">$999</div>
-                <a href="https://www.amazon.co.uk/s?k=EcoFlow+Delta+2&tag=sparklingpicks-21" class="btn btn-primary" style="margin-top: 1rem; font-size: 0.875rem;" target="_blank" rel="nofollow sponsored noopener">Check Price →</a>
+            <div class="product-card">
+                <a href="https://www.amazon.co.uk/s?k=SodaStream+Terra&tag=sparklingpicks-21" target="_blank" rel="nofollow sponsored noopener">
+                    <img src="assets/images/terra.png" alt="SodaStream Terra">
+                </a>
+                <div class="product-card-name">SodaStream Terra</div>
+                <div class="product-card-price">$89</div>
+                <a href="https://www.amazon.co.uk/s?k=SodaStream+Terra&tag=sparklingpicks-21" class="btn-small" target="_blank" rel="nofollow sponsored noopener">Buy on Amazon</a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Trust Bar -->
-<section style="background: #171717; padding: 3rem 0;">
+<!-- CATEGORIES: Quick Navigation -->
+<section class="categories-section">
     <div class="container">
-        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; text-align: center;">
-            <div>
-                <div style="font-size: 2rem; font-weight: 800; color: #0891b2;">50+</div>
-                <div style="color: #a3a3a3; font-size: 0.9rem;">Products Tested</div>
-            </div>
-            <div>
-                <div style="font-size: 2rem; font-weight: 800; color: #0891b2;">100K+</div>
-                <div style="color: #a3a3a3; font-size: 0.9rem;">Reviews Analyzed</div>
-            </div>
-            <div>
-                <div style="font-size: 2rem; font-weight: 800; color: #0891b2;">3</div>
-                <div style="color: #a3a3a3; font-size: 0.9rem;">Categories</div>
-            </div>
-            <div>
-                <div style="font-size: 2rem; font-weight: 800; color: #0891b2;">2026</div>
-                <div style="color: #a3a3a3; font-size: 0.9rem;">Updated Monthly</div>
-            </div>
+        <h2 style="text-align: center; margin: 0 0 1.5rem; font-size: 1.25rem; color: #6b7280;">Browse by Category</h2>
+        <div class="categories-list">
+            <a href="/power-stations/best-portable-power-station.html" class="category-link">
+                ⚡ Power Stations
+            </a>
+            <a href="/robot-vacuums/best-robot-vacuum.html" class="category-link">
+                🤖 Robot Vacuums
+            </a>
+            <a href="/best-soda-makers.html" class="category-link">
+                💧 Soda Makers
+            </a>
         </div>
     </div>
 </section>
 
-<footer class="site-footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-logo">SparklingPicks</div>
-            <div class="footer-links">
-                <a href="/about.html">About</a>
-                <a href="/contact.html">Contact</a>
-            </div>
+<footer class="site-footer" style="background: #171717; padding: 2rem 0;">
+    <div class="container" style="text-align: center;">
+        <div style="color: #6b7280; font-size: 0.8rem; margin-bottom: 1rem;">
+            50+ products tested · 100K+ reviews analyzed · Updated February 2026
         </div>
-        <div class="footer-legal">
-            <p>Sparkling Picks is a participant in affiliate programs. We may earn a commission when you buy through our links.</p>
-            <p>© 2026 Sparkling Picks</p>
+        <div style="color: #4b5563; font-size: 0.75rem;">
+            Sparkling Picks is a participant in affiliate programs. We earn from qualifying purchases.<br>
+            © 2026 Sparkling Picks
         </div>
     </div>
 </footer>
