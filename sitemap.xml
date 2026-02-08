@@ -42,6 +42,11 @@
   </url>
   <url>
     <loc>https://sparklingpicks.com/robot-vacuums/roomba-vs-roborock.html</loc>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-budget-robot-vacuum.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
