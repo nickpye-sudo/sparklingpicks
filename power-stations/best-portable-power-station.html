@@ -419,5 +419,28 @@
     </div>
 </footer>
 
+<!-- Sticky Mobile CTA -->
+<div id="sticky-cta" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: linear-gradient(135deg, #171717 0%, #262626 100%); padding: 0.75rem 1rem; z-index: 1000; box-shadow: 0 -4px 20px rgba(0,0,0,0.3);">
+    <div style="max-width: 600px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem;">
+        <div style="color: white; font-size: 0.9rem;">
+            <span style="color: #fbbf24;">🏆</span> <strong>Jackery 1000 Plus</strong>
+            <span style="color: #22c55e; font-weight: 700; margin-left: 0.5rem;">$1,299</span>
+        </div>
+        <a href="https://www.amazon.com/dp/B0BCNQG2WG?tag=sparkpicks-20" target="_blank" rel="nofollow noopener" style="background: #f97316; color: white; padding: 0.6rem 1.25rem; border-radius: 0.5rem; text-decoration: none; font-weight: 700; font-size: 0.85rem; white-space: nowrap;">Buy on Amazon</a>
+    </div>
+</div>
+<script>
+(function() {
+    var cta = document.getElementById('sticky-cta');
+    window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 400) {
+            cta.style.display = 'block';
+        } else {
+            cta.style.display = 'none';
+        }
+    });
+})();
+</script>
+
 </body>
 </html>
