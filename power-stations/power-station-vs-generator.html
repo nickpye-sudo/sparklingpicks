@@ -1,70 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LRR7KDXG7C"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LRR7KDXG7C');</script>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Power Station vs Gas Generator 2026 — Which Is Better? | Sparkling Picks</title>
-<meta name="description" content="Power station vs gas generator: cost, noise, runtime, maintenance compared. Find out which is right for your needs.">
-<link rel="canonical" href="https://sparklingpicks.com/power-stations/power-station-vs-generator.html">
-<link rel="stylesheet" href="/assets/styles.css">
-<style>.comparison-table{width:100%;border-collapse:collapse;margin:1.5rem 0}.comparison-table th,.comparison-table td{padding:0.75rem;border-bottom:1px solid #e2e8f0;text-align:left}.comparison-table th{background:#f8fafc}.winner{background:#f0fdf4;font-weight:600}.verdict{background:#f0fdf4;border:2px solid #22c55e;border-radius:1rem;padding:2rem;margin:2rem 0}.btn-amazon{display:inline-block;background:#f97316;color:white;font-weight:700;padding:1rem 2rem;border-radius:0.75rem;text-decoration:none;margin-top:1rem}</style>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LRR7KDXG7C');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portable Power Station vs Gas Generator — Which Should You Buy? | Sparkling Picks</title>
+    <meta name="description" content="Power station or gas generator? We compare noise, cost, runtime, safety, and use cases. Most people should buy a power station — here's why.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Sparkling Picks">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://sparklingpicks.com/power-stations/power-station-vs-generator.html">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <style>
+        .comparison-hero {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 2rem;
+            align-items: center;
+            margin: 2rem 0;
+            padding: 2rem;
+            background: #f8fafc;
+            border-radius: 1.5rem;
+        }
+        .comparison-hero .vs {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #64748b;
+        }
+        .option-card {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        .option-card h3 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .option-card .icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .winner-box {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            border: 3px solid #22c55e;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        .winner-badge {
+            background: #22c55e;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.5rem 1.5rem;
+            border-radius: 2rem;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+        .btn-amazon {
+            display: inline-block;
+            background: #f97316;
+            color: white;
+            font-weight: 700;
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .btn-amazon:hover {
+            background: #ea580c;
+            transform: translateY(-2px);
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+        .comparison-table th,
+        .comparison-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .comparison-table th {
+            background: #f8fafc;
+            font-weight: 600;
+        }
+        .comparison-table td:nth-child(2) { background: #f0fdf4; }
+        .comparison-table td:nth-child(3) { background: #fef2f2; }
+        .check { color: #22c55e; font-weight: bold; }
+        .cross { color: #ef4444; font-weight: bold; }
+        .neutral { color: #64748b; }
+        .scenario-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            background: white;
+        }
+        .scenario-card h4 {
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .verdict {
+            display: inline-block;
+            font-weight: 700;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+        }
+        .verdict.power-station { background: #dcfce7; color: #15803d; }
+        .verdict.generator { background: #fee2e2; color: #dc2626; }
+        .verdict.either { background: #fef3c7; color: #92400e; }
+        .toc {
+            background: #f8fafc;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+        .toc h4 { margin-top: 0; }
+        .toc ol { margin: 0; padding-left: 1.25rem; }
+        .toc li { margin: 0.5rem 0; }
+        @media (max-width: 640px) {
+            .comparison-hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .comparison-hero .vs {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-<header class="site-header"><div class="header-content"><a href="/" class="logo">Sparkling Picks</a></div></header>
-<main class="article-content">
-<article>
-<h1>Power Station vs Gas Generator</h1>
-<p class="article-meta">Updated February 2026</p>
+    <header class="site-header">
+        <div class="header-content">
+            <a href="/" class="logo">Sparkling Picks</a>
+            <nav class="main-nav">
+                <a href="/best-soda-makers.html">Soda Makers</a>
+                <a href="/power-stations/best-portable-power-station.html">Power Stations</a>
+                <a href="/robot-vacuums/best-robot-vacuum.html">Robot Vacuums</a>
+            </nav>
+        </div>
+    </header>
 
-<div class="verdict">
-<h2 style="margin-top:0">Quick Answer</h2>
-<p><strong>Power station:</strong> Best for short outages (4-24 hours), indoor use, quiet operation, low maintenance.</p>
-<p><strong>Gas generator:</strong> Best for extended outages (days), high-power needs, lower upfront cost.</p>
-</div>
+    <main class="article-content">
+        <div class="breadcrumb">
+            <a href="/">Home</a> → <a href="/power-stations/best-portable-power-station.html">Power Stations</a> → Power Station vs Generator
+        </div>
 
-<table class="comparison-table">
-<tr><th>Feature</th><th>Power Station</th><th>Gas Generator</th></tr>
-<tr><td>Noise</td><td class="winner">Silent ✓</td><td>60-70dB (loud)</td></tr>
-<tr><td>Indoor use</td><td class="winner">Yes ✓</td><td>No (CO poisoning risk)</td></tr>
-<tr><td>Maintenance</td><td class="winner">None ✓</td><td>Oil, fuel, spark plugs</td></tr>
-<tr><td>Upfront cost</td><td>$500-2,000</td><td class="winner">$300-800 ✓</td></tr>
-<tr><td>Fuel cost</td><td class="winner">$0 (electricity) ✓</td><td>$5-10/day</td></tr>
-<tr><td>Runtime</td><td>4-24 hours</td><td class="winner">Unlimited (with fuel) ✓</td></tr>
-<tr><td>Max output</td><td>1,800-3,000W typical</td><td class="winner">3,000-10,000W ✓</td></tr>
-<tr><td>Portability</td><td class="winner">17-50 lbs ✓</td><td>50-150 lbs</td></tr>
-</table>
+        <article>
+            <h1>Portable Power Station vs Gas Generator — Which Is Right for You?</h1>
+            <p class="article-meta">Updated March 2026 • Complete comparison guide</p>
 
-<h2>Choose a Power Station If:</h2>
-<ul>
-<li>✓ You live in an apartment/condo</li>
-<li>✓ You need quiet operation</li>
-<li>✓ Outages are typically short (under 24 hours)</li>
-<li>✓ You want zero maintenance</li>
-<li>✓ You'll also use it for camping/travel</li>
-</ul>
+            <div class="comparison-hero">
+                <div class="option-card">
+                    <div class="icon">🔋</div>
+                    <h3>Power Station</h3>
+                    <p>Battery-powered, silent, indoor-safe</p>
+                </div>
+                <div class="vs">VS</div>
+                <div class="option-card">
+                    <div class="icon">⛽</div>
+                    <h3>Gas Generator</h3>
+                    <p>Fuel-powered, loud, outdoor-only</p>
+                </div>
+            </div>
 
-<h2>Choose a Gas Generator If:</h2>
-<ul>
-<li>✓ You need to power large appliances (AC, well pump)</li>
-<li>✓ Outages last multiple days</li>
-<li>✓ You have outdoor space away from windows</li>
-<li>✓ Budget is tight</li>
-</ul>
+            <p class="intro"><strong>Bottom line:</strong> For 80% of people, a portable power station is the better choice. It's silent, safe to use indoors, zero-maintenance, and powerful enough for most outages and camping trips. Gas generators only make sense when you need unlimited runtime or very high power output.</p>
 
-<h2>The Hybrid Approach</h2>
-<p>Many people buy both: a power station for short outages and indoor use, plus a small generator for extended emergencies. Start with a power station — you'll use it more often.</p>
+            <div class="winner-box">
+                <span class="winner-badge">👍 Our Recommendation</span>
+                <h2 style="margin-top:0;">Most people should buy a power station</h2>
+                <p>Unless you need to run high-wattage tools for hours or expect multi-day outages without any charging options, a power station is more practical, safer, and easier to live with.</p>
+                <a href="/power-stations/best-portable-power-station.html" class="btn-amazon">See Our Top Power Stations →</a>
+            </div>
 
-<h2>Our Power Station Picks</h2>
-<ul>
-<li><a href="ecoflow-river-2-pro-review.html">EcoFlow River 2 Pro ($499)</a> — Best for most people</li>
-<li><a href="best-power-station-for-home-backup.html">EcoFlow Delta 2 Max ($1,699)</a> — Best for home backup</li>
-</ul>
+            <div class="toc">
+                <h4>📖 In This Guide</h4>
+                <ol>
+                    <li><a href="#quick">Quick Comparison Table</a></li>
+                    <li><a href="#noise">Noise Levels</a></li>
+                    <li><a href="#safety">Safety & Indoor Use</a></li>
+                    <li><a href="#cost">Upfront & Ongoing Costs</a></li>
+                    <li><a href="#runtime">Runtime & Power Output</a></li>
+                    <li><a href="#maintenance">Maintenance</a></li>
+                    <li><a href="#scenarios">Use Case Scenarios</a></li>
+                    <li><a href="#verdict">Final Verdict</a></li>
+                </ol>
+            </div>
 
-<a href="https://www.amazon.com/dp/B0BL39HFD4?tag=sparkpicks-20" class="btn-amazon" target="_blank" rel="nofollow noopener">Buy EcoFlow River 2 Pro — $499</a>
-</article>
-</main>
-<footer class="site-footer"><p>© 2026 Sparkling Picks</p></footer>
+            <h2 id="quick">Quick Comparison Table</h2>
+            <div style="overflow-x:auto;">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Factor</th>
+                        <th>🔋 Power Station</th>
+                        <th>⛽ Gas Generator</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Noise</strong></td>
+                        <td><span class="check">Silent (0-30 dB)</span></td>
+                        <td><span class="cross">Loud (60-90 dB)</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Indoor Use</strong></td>
+                        <td><span class="check">Yes — completely safe</span></td>
+                        <td><span class="cross">No — deadly CO fumes</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fuel</strong></td>
+                        <td><span class="check">None — charges from wall/solar</span></td>
+                        <td><span class="cross">Gasoline required</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Maintenance</strong></td>
+                        <td><span class="check">None</span></td>
+                        <td><span class="cross">Oil, filters, spark plugs, winterizing</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Runtime</strong></td>
+                        <td><span class="cross">Limited by battery capacity</span></td>
+                        <td><span class="check">Unlimited with fuel</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Max Power</strong></td>
+                        <td><span class="neutral">1,800-3,600W typical</span></td>
+                        <td><span class="check">3,000-10,000W+ available</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Upfront Cost</strong></td>
+                        <td><span class="neutral">$300-$4,000</span></td>
+                        <td><span class="check">$200-$2,000</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ongoing Cost</strong></td>
+                        <td><span class="check">~$0 (electricity)</span></td>
+                        <td><span class="cross">$5-20/day fuel + maintenance</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lifespan</strong></td>
+                        <td><span class="check">10-15 years (LiFePO4)</span></td>
+                        <td><span class="neutral">5-10 years with maintenance</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Portability</strong></td>
+                        <td><span class="check">15-50 lbs, compact</span></td>
+                        <td><span class="cross">50-200+ lbs, bulky</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <h2 id="noise">Noise Levels</h2>
+            <p><strong>Power stations are silent.</strong> The only noise is a small fan that kicks in under heavy load — typically 20-40 decibels, quieter than a refrigerator.</p>
+            <p><strong>Gas generators are loud.</strong> Even "quiet" inverter generators run at 50-60 dB (normal conversation level). Standard generators hit 70-90 dB — comparable to a lawn mower or vacuum cleaner running constantly.</p>
+            <p>This matters for:</p>
+            <ul>
+                <li><strong>Camping:</strong> Generators disturb neighbors and wildlife</li>
+                <li><strong>Night use:</strong> You can't sleep next to a running generator</li>
+                <li><strong>Neighborhoods:</strong> Many HOAs and campgrounds ban generators</li>
+            </ul>
+            <p><strong>Winner: Power Station</strong> — It's not even close.</p>
+
+            <h2 id="safety">Safety & Indoor Use</h2>
+            <p><strong>Power stations are indoor-safe.</strong> No fumes, no fire risk, no danger. Use them in your bedroom, tent, office, or car.</p>
+            <p><strong>Gas generators produce carbon monoxide</strong> — an odorless, deadly gas. They must be used outdoors, at least 20 feet from any building, with exhaust pointed away. Every year, people die from generator fumes during power outages.</p>
+            <p>This matters most during:</p>
+            <ul>
+                <li><strong>Storms:</strong> When you can't safely put a generator outside</li>
+                <li><strong>Apartments:</strong> Where outdoor use isn't possible</li>
+                <li><strong>Winter:</strong> When doors and windows are closed</li>
+                <li><strong>Night:</strong> When you're asleep and can't monitor it</li>
+            </ul>
+            <p><strong>Winner: Power Station</strong> — Safety is non-negotiable.</p>
+
+            <h2 id="cost">Upfront & Ongoing Costs</h2>
+            
+            <h4>Upfront Cost</h4>
+            <p>Gas generators are cheaper upfront for equivalent power:</p>
+            <ul>
+                <li><strong>2,000W gas generator:</strong> $400-800</li>
+                <li><strong>2,000W power station:</strong> $1,000-2,000</li>
+            </ul>
+            
+            <h4>Ongoing Cost</h4>
+            <p>Power stations win long-term:</p>
+            <ul>
+                <li><strong>Power station:</strong> Charge from wall (~$0.10-0.30 per full charge) or free solar</li>
+                <li><strong>Gas generator:</strong> $5-20/day in fuel, plus $50-150/year in maintenance</li>
+            </ul>
+            
+            <h4>Total Cost of Ownership (5 years, moderate use)</h4>
+            <ul>
+                <li><strong>Power station (EcoFlow Delta 2):</strong> $1,000 upfront + ~$50 electricity = <strong>$1,050 total</strong></li>
+                <li><strong>Gas generator (Honda EU2200i):</strong> $1,000 upfront + $500 fuel + $300 maintenance = <strong>$1,800 total</strong></li>
+            </ul>
+            <p><strong>Winner: Power Station</strong> — Higher upfront, lower total cost.</p>
+
+            <h2 id="runtime">Runtime & Power Output</h2>
+            
+            <h4>Runtime</h4>
+            <p>This is where gas generators have a clear advantage. Once a power station's battery is depleted, you need to recharge it (wall: 1-2 hours, solar: 4-8 hours). A gas generator runs as long as you have fuel.</p>
+            <p>However, most outages last less than 8 hours. A 1,000Wh power station can run:</p>
+            <ul>
+                <li>Refrigerator: 8-12 hours</li>
+                <li>Phone charging: 100+ times</li>
+                <li>LED lights: 50+ hours</li>
+                <li>Laptop: 10-15 charges</li>
+            </ul>
+            <p>For multi-day outages, you can add solar panels or expansion batteries.</p>
+            
+            <h4>Power Output</h4>
+            <p>Most power stations max out at 1,800-3,600 watts. Gas generators go much higher — 5,000-10,000W is common.</p>
+            <p>For reference:</p>
+            <ul>
+                <li>Refrigerator: 100-400W</li>
+                <li>Space heater: 1,500W</li>
+                <li>Window AC: 500-1,500W</li>
+                <li>Well pump: 1,000-2,000W</li>
+                <li>Central AC: 3,000-5,000W</li>
+            </ul>
+            <p>Power stations handle essentials fine. Whole-home backup during summer (AC) requires a large gas generator.</p>
+            <p><strong>Winner: Gas Generator</strong> — For runtime and high-power needs.</p>
+
+            <h2 id="maintenance">Maintenance</h2>
+            <p><strong>Power stations need zero maintenance.</strong> Charge them every 3-6 months if stored, and they'll last 10-15 years.</p>
+            <p><strong>Gas generators require regular maintenance:</strong></p>
+            <ul>
+                <li>Oil changes every 50-100 hours</li>
+                <li>Air filter replacement</li>
+                <li>Spark plug replacement</li>
+                <li>Fuel stabilizer (gas goes bad in 30 days)</li>
+                <li>Carburetor cleaning</li>
+                <li>Winterizing for storage</li>
+            </ul>
+            <p>Many people buy gas generators, let them sit for years, and discover they won't start when needed.</p>
+            <p><strong>Winner: Power Station</strong> — Set it and forget it.</p>
+
+            <h2 id="scenarios">Use Case Scenarios</h2>
+
+            <div class="scenario-card">
+                <h4>🏠 Home Power Outages (typical, 1-8 hours)</h4>
+                <p>Need to keep fridge, phones, Wi-Fi, and lights running during a storm?</p>
+                <p><span class="verdict power-station">→ Power Station</span> — Silent, safe indoors, no setup. A 1,000Wh unit handles this easily.</p>
+                <p><strong>Recommended:</strong> <a href="/power-stations/best-power-station-for-home-backup.html">EcoFlow Delta 2</a> ($799)</p>
+            </div>
+
+            <div class="scenario-card">
+                <h4>🏕️ Camping & RV</h4>
+                <p>Powering devices at a campsite or in your RV?</p>
+                <p><span class="verdict power-station">→ Power Station</span> — No noise to disturb neighbors, no fumes in enclosed spaces, charges from car or solar.</p>
+                <p><strong>Recommended:</strong> <a href="/power-stations/best-power-station-for-camping.html">Jackery 1000 Plus</a> ($1,099)</p>
+            </div>
+
+            <div class="scenario-card">
+                <h4>🔧 Job Site (Power Tools)</h4>
+                <p>Running circular saws, drills, and compressors at a construction site?</p>
+                <p><span class="verdict either">→ Either</span> — Power stations work for moderate tools, but heavy-duty equipment (table saws, welders) may exceed their output. For all-day heavy use, gas wins.</p>
+                <p><strong>Power station option:</strong> <a href="https://www.amazon.com/dp/B09TQPQBSN?tag=sparkpicks-20" target="_blank" rel="nofollow">EcoFlow Delta Pro</a> (3,600W) for most tools</p>
+            </div>
+
+            <div class="scenario-card">
+                <h4>🌪️ Multi-Day Power Outages (hurricanes, ice storms)</h4>
+                <p>Grid down for 2-5+ days with no end in sight?</p>
+                <p><span class="verdict generator">→ Gas Generator</span> — Unless you have solar panels, battery capacity will run out. Gas gives unlimited runtime with fuel resupply.</p>
+                <p><strong>Alternative:</strong> Power station + solar panel kit for fuel-free extended runtime</p>
+            </div>
+
+            <div class="scenario-card">
+                <h4>❄️ Whole-Home Backup (with AC/heat)</h4>
+                <p>Running central air, well pump, and major appliances simultaneously?</p>
+                <p><span class="verdict generator">→ Gas Generator</span> — 5,000-10,000W demand exceeds most power stations. Only the <a href="https://www.amazon.com/dp/B09TQPQBSN?tag=sparkpicks-20" target="_blank" rel="nofollow">EcoFlow Delta Pro</a> with expansion batteries comes close.</p>
+            </div>
+
+            <div class="scenario-card">
+                <h4>🏢 Apartment / Condo</h4>
+                <p>Living in a building where outdoor generator use isn't possible?</p>
+                <p><span class="verdict power-station">→ Power Station</span> — Your only option. Gas generators can't be used indoors, period.</p>
+            </div>
+
+            <h2 id="verdict">Final Verdict</h2>
+            
+            <h3>Buy a Power Station If:</h3>
+            <ul>
+                <li>You want silent, indoor-safe backup power</li>
+                <li>Your outages are typically under 12 hours</li>
+                <li>You live in an apartment or HOA-restricted area</li>
+                <li>You camp, RV, or travel frequently</li>
+                <li>You don't want to deal with maintenance</li>
+                <li>You can add solar panels for extended outages</li>
+            </ul>
+            <p><strong>Recommended:</strong> <a href="https://www.amazon.com/dp/B0BQPWVNF1?tag=sparkpicks-20" class="btn-amazon" target="_blank" rel="nofollow">EcoFlow Delta 2 — $799 on Amazon</a></p>
+
+            <h3>Buy a Gas Generator If:</h3>
+            <ul>
+                <li>You regularly experience multi-day outages</li>
+                <li>You need to run high-wattage equipment (central AC, well pumps, power tools)</li>
+                <li>You have outdoor space to run it safely</li>
+                <li>You're comfortable with regular maintenance</li>
+                <li>You have fuel storage capability</li>
+            </ul>
+            <p><strong>Recommended:</strong> Honda EU2200i ($1,000) — quietest and most reliable in its class</p>
+
+            <h3>Or Consider Both</h3>
+            <p>Many people own both: a power station for daily use and short outages, and a gas generator for extended emergencies. The power station handles 95% of situations silently and safely; the generator is the backup's backup.</p>
+
+            <h2>Related Guides</h2>
+            <ul>
+                <li><a href="/power-stations/best-portable-power-station.html">Best Portable Power Stations 2026</a></li>
+                <li><a href="/power-stations/best-power-station-for-home-backup.html">Best Power Station for Home Backup</a></li>
+                <li><a href="/power-stations/best-solar-generator.html">Best Solar Generators</a> — Power station + panel kits</li>
+                <li><a href="/power-stations/how-to-charge-power-station.html">How to Charge a Power Station</a></li>
+            </ul>
+
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>© 2026 Sparkling Picks • <a href="/about.html">About</a> • <a href="/contact.html">Contact</a></p>
+            <p class="affiliate-disclosure">Affiliate disclosure: We earn from qualifying purchases at no extra cost to you.</p>
+        </div>
+    </footer>
 </body>
 </html>
