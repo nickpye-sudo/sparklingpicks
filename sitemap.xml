@@ -24,6 +24,13 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Standing Desks -->
+  <url>
+    <loc>https://sparklingpicks.com/standing-desks/best-standing-desk.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Robot Vacuums -->
   <url>
     <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum.html</loc>
