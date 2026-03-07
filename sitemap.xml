@@ -7,21 +7,189 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Power Stations -->
+  <!-- Power Stations - Pillar Pages -->
   <url>
     <loc>https://sparklingpicks.com/power-stations/best-portable-power-station.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://sparklingpicks.com/power-stations/best-solar-generator.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Power Stations - Use Case Guides -->
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/best-power-station-for-camping.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/best-power-station-for-cpap.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/best-power-station-for-home-backup.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/best-power-station-for-rv.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/best-budget-power-station.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/power-station-for-apartment.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/power-station-for-refrigerator.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/best-power-station-deals.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Power Stations - Comparisons -->
+  <url>
     <loc>https://sparklingpicks.com/power-stations/jackery-vs-ecoflow.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sparklingpicks.com/power-stations/best-power-station-for-camping.html</loc>
+    <loc>https://sparklingpicks.com/power-stations/jackery-vs-bluetti.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/bluetti-vs-ecoflow.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/goal-zero-vs-jackery.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/power-station-vs-generator.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Power Stations - Product Reviews -->
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/jackery-explorer-2000-plus-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/jackery-explorer-1000-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/ecoflow-delta-2-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/ecoflow-delta-pro-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/ecoflow-river-2-pro-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/bluetti-ac200max-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/anker-solix-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Power Stations - Educational -->
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/how-to-charge-power-station.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Robot Vacuums - Pillar Page -->
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Robot Vacuums - Use Case Guides -->
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-for-pet-hair.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-mop-combo.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-under-500.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-budget-robot-vacuum.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Robot Vacuums - Comparisons -->
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/roomba-j7-vs-s9.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/roomba-vs-roborock.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/roborock-q5-vs-q7.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- E-Bikes -->
+  <url>
+    <loc>https://sparklingpicks.com/e-bikes/best-electric-bike.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Espresso Machines -->
+  <url>
+    <loc>https://sparklingpicks.com/espresso-machines/best-espresso-machine.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Standing Desks -->
@@ -31,44 +199,11 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Robot Vacuums -->
+  <!-- Outdoor Power -->
   <url>
-    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum.html</loc>
+    <loc>https://sparklingpicks.com/outdoor-power/best-electric-chainsaw.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-for-pet-hair.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sparklingpicks.com/robot-vacuums/roomba-j7-vs-s9.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sparklingpicks.com/robot-vacuums/roomba-vs-roborock.html</loc>
-  </url>
-  <url>
-    <loc>https://sparklingpicks.com/robot-vacuums/roborock-q5-vs-q7.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sparklingpicks.com/robot-vacuums/best-budget-robot-vacuum.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-mop-combo.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-under-500.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <!-- Soda Makers - Main Pages -->
