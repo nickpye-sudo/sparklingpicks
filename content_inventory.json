@@ -1,0 +1,21 @@
+{
+  "last_updated": "2026-03-07T14:25:00Z",
+  "summary": {
+    "total_pages": 93,
+    "categories": {
+      "soda_makers": 42,
+      "power_stations": 35,
+      "robot_vacuums": 12,
+      "site_pages": 4
+    }
+  },
+  "high_aov_pages": [
+    {"path": "power-stations/best-portable-power-station.html", "aov_range": "$400-2000", "status": "live"},
+    {"path": "power-stations/ecoflow-delta-pro-review.html", "aov_range": "$2799", "status": "live"},
+    {"path": "power-stations/jackery-explorer-2000-plus-review.html", "aov_range": "$1999", "status": "live"},
+    {"path": "power-stations/bluetti-ac200max-review.html", "aov_range": "$1599", "status": "live"},
+    {"path": "robot-vacuums/best-robot-vacuum.html", "aov_range": "$300-1400", "status": "live"}
+  ],
+  "stubs_remaining": [],
+  "needs_refresh": []
+}

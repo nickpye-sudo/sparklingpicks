@@ -1,0 +1,89 @@
+{
+  "last_updated": "2026-03-07T14:45:00Z",
+  "queue": [
+    {
+      "id": "EXP-003",
+      "type": "niche_selection",
+      "hypothesis": "Home espresso machines ($200-2000 AOV) have strong buyer intent keywords",
+      "priority": 1,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-004",
+      "type": "keyword_opportunity",
+      "hypothesis": "Long-tail power station queries (brand vs brand) have lower competition",
+      "priority": 2,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-005",
+      "type": "cta_optimization",
+      "hypothesis": "Adding price to CTA buttons increases CTR to Amazon",
+      "priority": 3,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-006",
+      "type": "article_format",
+      "hypothesis": "Single-product reviews convert better than roundups for high-AOV items",
+      "priority": 4,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-007",
+      "type": "internal_linking",
+      "hypothesis": "Hub-and-spoke linking structure improves rankings for pillar pages",
+      "priority": 5,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-008",
+      "type": "topical_cluster",
+      "hypothesis": "Complete coverage of one brand (all Jackery models) builds topical authority",
+      "priority": 6,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-009",
+      "type": "buyer_intent",
+      "hypothesis": "Problem-solution pages (e.g. 'power station for CPAP') convert better than generic guides",
+      "priority": 7,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-010",
+      "type": "niche_selection",
+      "hypothesis": "Standing desks ($300-1500 AOV) have high search volume and affiliate potential",
+      "priority": 8,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-011",
+      "type": "niche_selection",
+      "hypothesis": "Air purifiers ($100-800 AOV) have seasonal spikes and recurring filter revenue",
+      "priority": 9,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-012",
+      "type": "layout_ux",
+      "hypothesis": "Comparison tables above the fold increase time-on-page and conversions",
+      "priority": 10,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-013",
+      "type": "topical_cluster",
+      "hypothesis": "E-bike sub-pages (folding, commuter, cargo) will capture long-tail traffic",
+      "priority": 11,
+      "status": "queued"
+    },
+    {
+      "id": "EXP-014",
+      "type": "topical_cluster",
+      "hypothesis": "Outdoor power sub-pages (leaf blowers, trimmers) build category authority",
+      "priority": 12,
+      "status": "queued"
+    }
+  ]
+}

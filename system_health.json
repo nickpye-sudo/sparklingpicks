@@ -1,0 +1,13 @@
+{
+  "last_check": "2026-03-07T14:25:00Z",
+  "status": "healthy",
+  "checks": {
+    "git_status": "clean",
+    "pages_accessible": true,
+    "sitemap_valid": true,
+    "analytics_configured": true,
+    "amazon_tag": "sparkpicks-20"
+  },
+  "issues": [],
+  "last_deploy": "2026-03-07T14:00:00Z"
+}
