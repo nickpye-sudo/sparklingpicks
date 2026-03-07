@@ -1,12 +1,12 @@
 {
   "meta": {
     "created": "2026-03-07T14:25:00Z",
-    "last_updated": "2026-03-07T14:45:00Z",
-    "total_experiments": 2,
+    "last_updated": "2026-03-07T15:00:00Z",
+    "total_experiments": 4,
     "completed": 0,
     "successes": 0,
     "failures": 0,
-    "active": 2
+    "active": 4
   },
   "experiments": [
     {
@@ -16,10 +16,9 @@
       "status": "active",
       "started": "2026-03-07T14:30:00Z",
       "success_criteria": "Page ranks for target keywords within 30 days; >5% CTR to Amazon",
-      "content_created": [
-        "/outdoor-power/best-electric-chainsaw.html"
-      ],
-      "notes": "New category created. High-AOV products ($139-$399). Testing if outdoor power has demand."
+      "content_created": ["/outdoor-power/best-electric-chainsaw.html"],
+      "aov": "$139-$399",
+      "notes": "New category. Testing outdoor power equipment niche."
     },
     {
       "id": "EXP-002",
@@ -27,11 +26,32 @@
       "hypothesis": "E-bikes have high AOV ($649-$12,000) with strong buyer intent",
       "status": "active",
       "started": "2026-03-07T14:40:00Z",
-      "success_criteria": "Page ranks for 'best electric bike' variants; >3% CTR to Amazon",
-      "content_created": [
-        "/e-bikes/best-electric-bike.html"
-      ],
-      "notes": "New category. Extremely high AOV. Testing Amazon availability (e-bikes sometimes direct-to-consumer)."
+      "success_criteria": "Page ranks for 'best electric bike'; >3% CTR to Amazon",
+      "content_created": ["/e-bikes/best-electric-bike.html"],
+      "aov": "$649-$12,000",
+      "notes": "Highest AOV category tested. Some products may be DTC only."
+    },
+    {
+      "id": "EXP-003",
+      "type": "niche_selection",
+      "hypothesis": "Espresso machines ($149-$1,750 AOV) have strong buyer intent and established affiliate programs",
+      "status": "active",
+      "started": "2026-03-07T14:50:00Z",
+      "success_criteria": "Page ranks for 'best espresso machine'; >4% CTR to Amazon",
+      "content_created": ["/espresso-machines/best-espresso-machine.html"],
+      "aov": "$149-$1,750",
+      "notes": "High search volume niche. Strong Amazon presence."
+    },
+    {
+      "id": "EXP-010",
+      "type": "niche_selection",
+      "hypothesis": "Standing desks ($379-$999 AOV) have high search volume and affiliate potential",
+      "status": "active",
+      "started": "2026-03-07T14:55:00Z",
+      "success_criteria": "Page ranks for 'best standing desk'; >4% CTR to Amazon",
+      "content_created": ["/standing-desks/best-standing-desk.html"],
+      "aov": "$379-$999",
+      "notes": "High-value home office category. Competitive but winnable long-tail."
     }
   ]
 }
