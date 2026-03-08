@@ -13,7 +13,9 @@
       "type": "cta_optimization",
       "hypothesis": "Adding price to CTA buttons increases CTR to Amazon",
       "priority": 2,
-      "status": "queued"
+      "status": "deployed",
+      "deployed_date": "2026-03-08",
+      "pages_updated": 7
     },
     {
       "id": "EXP-006",
