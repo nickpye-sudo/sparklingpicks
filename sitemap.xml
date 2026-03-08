@@ -166,6 +166,13 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Robot Vacuums - Deals -->
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-deals.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Robot Vacuums - Comparisons -->
   <url>
     <loc>https://sparklingpicks.com/robot-vacuums/roomba-j7-vs-s9.html</loc>
