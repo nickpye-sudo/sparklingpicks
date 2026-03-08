@@ -29,8 +29,8 @@
       "type": "internal_linking",
       "hypothesis": "Hub-and-spoke linking structure improves rankings for pillar pages",
       "priority": 4,
-      "status": "in_progress",
-      "note": "2026-03-08: Added styled related-articles sections to 8 pages (power-stations: jackery-vs-ecoflow, bluetti-vs-ecoflow, best-budget, cpap, home-backup, rv, anker-solix; e-bikes: commuter). Still missing: best-power-station-deals."
+      "status": "complete",
+      "note": "2026-03-08: Added styled related-articles sections to 9 pages total. Deals page now has full internal linking hub."
     },
     {
       "id": "EXP-008",
