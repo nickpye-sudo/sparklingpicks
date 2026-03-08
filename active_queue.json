@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T15:05:00Z",
+  "last_updated": "2026-03-08T07:07:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -29,7 +29,8 @@
       "type": "internal_linking",
       "hypothesis": "Hub-and-spoke linking structure improves rankings for pillar pages",
       "priority": 4,
-      "status": "in_progress"
+      "status": "in_progress",
+      "note": "2026-03-08: Added styled related-articles sections to 8 pages (power-stations: jackery-vs-ecoflow, bluetti-vs-ecoflow, best-budget, cpap, home-backup, rv, anker-solix; e-bikes: commuter). Still missing: best-power-station-deals."
     },
     {
       "id": "EXP-008",
