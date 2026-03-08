@@ -66,8 +66,8 @@
       "type": "topical_cluster",
       "hypothesis": "E-bike sub-pages (folding, commuter, cargo) will capture long-tail traffic",
       "priority": 9,
-      "status": "in_progress",
-      "note": "Added best-commuter-ebike.html + best-folding-ebike.html (2026-03-08). Next: cargo sub-page"
+      "status": "complete",
+      "note": "Completed: commuter, folding, cargo sub-pages (2026-03-08). E-bike cluster now has 5 pages."
     },
     {
       "id": "EXP-014",
