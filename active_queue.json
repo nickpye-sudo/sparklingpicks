@@ -6,7 +6,8 @@
       "type": "keyword_opportunity",
       "hypothesis": "Long-tail power station queries (brand vs brand) have lower competition",
       "priority": 1,
-      "status": "queued"
+      "status": "in_progress",
+      "note": "2026-03-14: Added anker-solix-vs-ecoflow-delta-2.html comparison page"
     },
     {
       "id": "EXP-005",

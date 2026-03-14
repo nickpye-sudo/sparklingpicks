@@ -63,6 +63,11 @@
 
   <!-- Power Stations - Comparisons -->
   <url>
+    <loc>https://sparklingpicks.com/power-stations/anker-solix-vs-ecoflow-delta-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://sparklingpicks.com/power-stations/jackery-vs-ecoflow.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
