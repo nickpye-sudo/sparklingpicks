@@ -170,6 +170,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-for-hardwood-floors.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Robot Vacuums - Deals -->
   <url>
