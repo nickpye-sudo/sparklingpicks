@@ -180,6 +180,11 @@
 
   <!-- Robot Vacuums - Comparisons -->
   <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/roomba-vs-shark.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://sparklingpicks.com/robot-vacuums/roomba-j7-vs-s9.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
