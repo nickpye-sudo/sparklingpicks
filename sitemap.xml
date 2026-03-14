@@ -178,6 +178,13 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Robot Vacuums - Product Reviews -->
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/roborock-s8-pro-ultra-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Robot Vacuums - Comparisons -->
   <url>
     <loc>https://sparklingpicks.com/robot-vacuums/roomba-vs-shark.html</loc>
