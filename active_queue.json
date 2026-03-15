@@ -47,7 +47,8 @@
       "type": "buyer_intent",
       "hypothesis": "Problem-solution pages (e.g. 'power station for CPAP') convert better than generic guides",
       "priority": 6,
-      "status": "queued"
+      "status": "in_progress",
+      "note": "2026-03-15: Added best-robot-vacuum-for-large-homes.html ($1,200-1,600 AOV)"
     },
     {
       "id": "EXP-011",
