@@ -7,6 +7,18 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Category Index Pages -->
+  <url>
+    <loc>https://sparklingpicks.com/power-stations/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
   <!-- Power Stations - Pillar Pages -->
   <url>
     <loc>https://sparklingpicks.com/power-stations/best-portable-power-station.html</loc>
