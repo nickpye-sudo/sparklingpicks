@@ -23,7 +23,8 @@
       "type": "article_format",
       "hypothesis": "Single-product reviews convert better than roundups for high-AOV items",
       "priority": 3,
-      "status": "queued"
+      "status": "in_progress",
+      "note": "2026-03-15: Added Roomba S9+ review ($999) - completes iRobot topical cluster"
     },
     {
       "id": "EXP-007",
