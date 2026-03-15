@@ -204,6 +204,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/roomba-s9-plus-review.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Robot Vacuums - Comparisons -->
   <url>
