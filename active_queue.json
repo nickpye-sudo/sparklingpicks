@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T20:29:00Z",
+  "last_updated": "2026-03-15T23:29:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -14,9 +14,10 @@
       "type": "cta_optimization",
       "hypothesis": "Adding price to CTA buttons increases CTR to Amazon",
       "priority": 2,
-      "status": "deployed",
+      "status": "complete",
       "deployed_date": "2026-03-08",
-      "pages_updated": 7
+      "pages_updated": 14,
+      "note": "2026-03-15: Extended to all non-deals product pages (7 more). All high-AOV pages now have price-prominent CTAs."
     },
     {
       "id": "EXP-006",
