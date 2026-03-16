@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T05:00:00Z",
+  "last_updated": "2026-03-16T07:30:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -7,7 +7,7 @@
       "hypothesis": "Long-tail power station queries (brand vs brand) have lower competition",
       "priority": 1,
       "status": "in_progress",
-      "note": "2026-03-14: Added anker-solix-vs-ecoflow-delta-2.html comparison page"
+      "note": "2026-03-16: Added ecovacs-vs-roborock.html. 7 brand-vs-brand pages in robot-vacuums category now."
     },
     {
       "id": "EXP-005",
