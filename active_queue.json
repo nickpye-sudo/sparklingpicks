@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T01:30:00Z",
+  "last_updated": "2026-03-17T03:29:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -7,7 +7,7 @@
       "hypothesis": "Long-tail power station queries (brand vs brand) have lower competition",
       "priority": 1,
       "status": "in_progress",
-      "note": "2026-03-16: Added ecovacs-vs-roborock.html. 7 brand-vs-brand pages in robot-vacuums category now."
+      "note": "2026-03-17: Added shark-vs-roborock.html. 8 brand-vs-brand pages in robot-vacuums category now."
     },
     {
       "id": "EXP-005",

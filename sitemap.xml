@@ -273,6 +273,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/shark-vs-roborock.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- E-Bikes -->
   <url>
