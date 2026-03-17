@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T14:00:00Z",
+  "last_updated": "2026-03-17T01:30:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -64,7 +64,7 @@
       "hypothesis": "Comparison tables above the fold increase time-on-page and conversions",
       "priority": 8,
       "status": "in_progress",
-      "note": "2026-03-15: Added above-fold quick-buy tables to 6 comparison pages total (jackery-vs-ecoflow, bluetti-vs-ecoflow, goal-zero-vs-jackery, roomba-vs-roborock, roomba-vs-shark, jackery-vs-bluetti). Most comparison pages now optimized."
+      "note": "2026-03-17: Added above-fold quick-buy sections to 8 comparison/guide pages (added: best-power-station-for-camping, roomba-j7-vs-s9). Now 8 pages with CRO-optimized layouts."
     },
     {
       "id": "EXP-013",
