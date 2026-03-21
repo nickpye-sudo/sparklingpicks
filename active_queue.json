@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T02:14:00Z",
+  "last_updated": "2026-03-21T03:14:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -41,7 +41,7 @@
       "hypothesis": "Complete coverage of one brand (all Jackery models) builds topical authority",
       "priority": 5,
       "status": "in_progress",
-      "note": "2026-03-15: Added Jackery Explorer 500 review ($449). Have: 500/1000/1000 Plus/2000 Plus. Missing: 240, 300"
+      "note": "2026-03-21: Added Jackery Explorer 300 Plus review ($299). Have: 300 Plus/500/1000/1000 Plus/2000 Plus. Missing: 240"
     },
     {
       "id": "EXP-009",
