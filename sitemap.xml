@@ -218,6 +218,13 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Robot Vacuums - Feature Guides -->
+  <url>
+    <loc>https://sparklingpicks.com/robot-vacuums/best-self-emptying-robot-vacuum.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- Robot Vacuums - Deals -->
   <url>
     <loc>https://sparklingpicks.com/robot-vacuums/best-robot-vacuum-deals.html</loc>

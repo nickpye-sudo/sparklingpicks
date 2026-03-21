@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T03:14:00Z",
+  "last_updated": "2026-03-21T16:44:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -49,7 +49,7 @@
       "hypothesis": "Problem-solution pages (e.g. 'power station for CPAP') convert better than generic guides",
       "priority": 6,
       "status": "in_progress",
-      "note": "2026-03-16: Added best-robot-vacuum-for-carpet.html ($450-1,500 AOV). Prev: large-homes.html"
+      "note": "2026-03-21: Added best-self-emptying-robot-vacuum.html ($449-1,499 AOV). Prev: carpet.html"
     },
     {
       "id": "EXP-011",
