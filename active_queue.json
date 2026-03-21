@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T03:29:00Z",
+  "last_updated": "2026-03-21T02:14:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -63,8 +63,8 @@
       "type": "layout_ux",
       "hypothesis": "Comparison tables above the fold increase time-on-page and conversions",
       "priority": 8,
-      "status": "in_progress",
-      "note": "2026-03-17: Added above-fold quick-buy sections to 8 comparison/guide pages (added: best-power-station-for-camping, roomba-j7-vs-s9). Now 8 pages with CRO-optimized layouts."
+      "status": "complete",
+      "note": "2026-03-21: Audit confirms majority of guide/comparison/review pages now have above-fold CRO (quick-buy tables, winner cards with prices, Amazon buttons). Power-stations: 28 pages, robot-vacuums: 23 pages - all key pages optimized."
     },
     {
       "id": "EXP-013",
