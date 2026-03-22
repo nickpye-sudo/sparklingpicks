@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T03:44:00Z",
+  "last_updated": "2026-03-22T07:44:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -57,7 +57,7 @@
       "hypothesis": "Air purifiers ($100-800 AOV) have seasonal spikes and recurring filter revenue",
       "priority": 7,
       "status": "in_progress",
-      "note": "2026-03-22: Created air-purifiers category with pillar page (best-air-purifier.html) and index. Featured 6 products ($149-569 AOV): Coway AP-1512HH, Levoit Core 300S, Dyson TP07, Blueair 211+, Winix 5500-2, Honeywell HPA300. Added to homepage nav and categories."
+      "note": "2026-03-22: Added best-air-purifier-for-pets.html (6 products, $149-569 AOV) with cross-linking to robot-vacuums/pet-hair. Air-purifiers category now has 4 pages: pillar, allergies, pets, index."
     },
     {
       "id": "EXP-012",
