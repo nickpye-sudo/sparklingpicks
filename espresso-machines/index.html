@@ -32,17 +32,97 @@
             background: linear-gradient(135deg, #451a03 0%, #78350f 100%);
             color: white;
             padding: 3rem 0;
-            margin-bottom: 2rem;
+            text-align: center;
         }
         .category-hero h1 {
-            font-size: 2.5rem;
-            margin: 0 0 0.5rem;
+            font-size: 2.75rem;
+            font-weight: 800;
+            margin: 0 0 1rem;
         }
         .category-hero p {
-            font-size: 1.25rem;
-            opacity: 0.9;
-            margin: 0;
+            color: rgba(255,255,255,0.85);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
         }
+        .featured-cta {
+            display: inline-block;
+            background: #f97316;
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 700;
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            box-shadow: 0 4px 14px rgba(249,115,22,0.4);
+            transition: all 0.2s;
+        }
+        .featured-cta:hover {
+            background: #ea580c;
+            transform: translateY(-2px);
+        }
+        
+        .content-section {
+            padding: 3rem 0;
+            background: #f9fafb;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 0 1.5rem;
+            color: #171717;
+        }
+        
+        .quick-picks {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            border: 2px solid #fed7aa;
+        }
+        .quick-picks h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 0 0 1rem;
+            color: #171717;
+        }
+        .quick-pick-row {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: 1rem;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .quick-pick-row:last-child {
+            border-bottom: none;
+        }
+        .quick-pick-name {
+            font-weight: 600;
+        }
+        .quick-pick-name span {
+            font-weight: 400;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+        .quick-pick-price {
+            font-weight: 700;
+            color: #15803d;
+        }
+        .quick-pick-btn {
+            background: #f97316;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .quick-pick-btn:hover {
+            background: #ea580c;
+        }
+
         .guide-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -106,90 +186,145 @@
             padding: 0.5rem 1rem;
             text-transform: uppercase;
         }
+        .more-categories {
+            background: #f8fafc;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        .more-categories h3 {
+            margin-top: 0;
+        }
+
+        @media (max-width: 768px) {
+            .guide-grid {
+                grid-template-columns: 1fr;
+            }
+            .quick-pick-row {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
-    <header class="site-header">
+    <nav class="nav">
         <div class="container">
-            <a href="/" class="logo">Sparkling Picks</a>
-            <nav>
+            <a href="/" class="logo">
+                <span class="logo-icon">✨</span>
+                <span class="logo-text">Sparkling Picks</span>
+            </a>
+            <div class="nav-links">
                 <a href="/power-stations/best-portable-power-station.html">Power Stations</a>
                 <a href="/robot-vacuums/best-robot-vacuum.html">Robot Vacuums</a>
                 <a href="/espresso-machines/best-espresso-machine.html">Espresso</a>
                 <a href="/e-bikes/best-electric-bike.html">E-Bikes</a>
                 <a href="/best-soda-makers.html">Soda Makers</a>
-            </nav>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <div class="category-hero">
+    <section class="category-hero">
         <div class="container">
             <h1>Espresso Machines & Grinders</h1>
-            <p>Expert-tested reviews for home baristas — from first espresso to café-quality shots</p>
+            <p>Expert-tested reviews for home baristas — from first espresso setup to café-quality shots at home.</p>
+            <a href="best-espresso-machine.html" class="featured-cta">☕ See Our #1 Pick</a>
         </div>
-    </div>
+    </section>
 
-    <main class="container">
-        <p class="intro">Making great espresso at home is more accessible than ever. We test machines and grinders to find the best options at every price point, from $200 beginner setups to $2,000+ prosumer rigs.</p>
-
-        <h2>Buying Guides</h2>
-        <div class="guide-grid">
-            <div class="guide-card featured-card">
-                <div class="featured-badge">Start Here</div>
-                <div class="guide-card-content">
-                    <h3><a href="/espresso-machines/best-espresso-machine.html">Best Espresso Machines 2026</a></h3>
-                    <p>Our top 10 tested picks from semi-automatic to super-automatic. Breville, De'Longhi, Gaggia, and more — with prices and Amazon links.</p>
-                    <span class="guide-tag">Comprehensive Guide</span>
+    <section class="content-section">
+        <div class="container">
+            <div class="quick-picks">
+                <h3>☕ Quick Picks — Top Espresso Setups 2026</h3>
+                <div class="quick-pick-row">
+                    <div class="quick-pick-name">Breville Barista Express <span>Best All-in-One</span></div>
+                    <div class="quick-pick-price">$699</div>
+                    <a href="https://www.amazon.com/dp/B00CH9QWOU?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+                </div>
+                <div class="quick-pick-row">
+                    <div class="quick-pick-name">Gaggia Classic Pro <span>Best for Enthusiasts</span></div>
+                    <div class="quick-pick-price">$449</div>
+                    <a href="https://www.amazon.com/dp/B07RQ3NL76?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+                </div>
+                <div class="quick-pick-row">
+                    <div class="quick-pick-name">Breville Bambino Plus <span>Best Compact</span></div>
+                    <div class="quick-pick-price">$499</div>
+                    <a href="https://www.amazon.com/dp/B07WVWNJ3P?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+                </div>
+                <div class="quick-pick-row">
+                    <div class="quick-pick-name">Baratza Sette 270 <span>Best Grinder</span></div>
+                    <div class="quick-pick-price">$399</div>
+                    <a href="https://www.amazon.com/dp/B01KDJZIBO?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+                </div>
+                <div class="quick-pick-row">
+                    <div class="quick-pick-name">1Zpresso JX-Pro <span>Best Manual Grinder</span></div>
+                    <div class="quick-pick-price">$169</div>
+                    <a href="https://www.amazon.com/dp/B07Y6HP6XN?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
                 </div>
             </div>
-            <div class="guide-card featured-card">
-                <div class="featured-badge">Essential</div>
-                <div class="guide-card-content">
-                    <h3><a href="/espresso-machines/best-espresso-grinder.html">Best Espresso Grinders 2026</a></h3>
-                    <p>The grinder matters more than the machine. We tested 12+ burr grinders from $100-$600 to find the best for home espresso.</p>
-                    <span class="guide-tag essential">Essential Equipment</span>
+
+            <h2 class="section-title">📋 Buying Guides</h2>
+            <div class="guide-grid">
+                <div class="guide-card featured-card">
+                    <div class="featured-badge">Start Here</div>
+                    <div class="guide-card-content">
+                        <h3><a href="/espresso-machines/best-espresso-machine.html">Best Espresso Machines 2026</a></h3>
+                        <p>Our top 10 tested picks from semi-automatic to super-automatic. Breville, De'Longhi, Gaggia, and more — with prices and Amazon links.</p>
+                        <span class="guide-tag">Comprehensive Guide</span>
+                    </div>
+                </div>
+                <div class="guide-card featured-card">
+                    <div class="featured-badge">Essential</div>
+                    <div class="guide-card-content">
+                        <h3><a href="/espresso-machines/best-espresso-grinder.html">Best Espresso Grinders 2026</a></h3>
+                        <p>The grinder matters more than the machine. We tested 12+ burr grinders from $100-$600 to find the best for home espresso.</p>
+                        <span class="guide-tag essential">Essential Equipment</span>
+                    </div>
+                </div>
+                <div class="guide-card">
+                    <div class="guide-card-content">
+                        <h3><a href="/espresso-machines/breville-vs-gaggia.html">Breville vs Gaggia: Which Is Better?</a></h3>
+                        <p>The two most popular semi-automatic machines under $700, compared head-to-head. All-in-one convenience vs moddable performance.</p>
+                        <span class="guide-tag">Comparison</span>
+                    </div>
                 </div>
             </div>
-            <div class="guide-card">
-                <div class="guide-card-content">
-                    <h3><a href="/espresso-machines/breville-vs-gaggia.html">Breville vs Gaggia: Which Is Better?</a></h3>
-                    <p>The two most popular semi-automatic machines under $700, compared head-to-head. All-in-one convenience vs moddable performance.</p>
-                    <span class="guide-tag">Comparison</span>
-                </div>
-            </div>
-        </div>
 
-        <h2>Why Trust Sparkling Picks?</h2>
-        <p>We're coffee obsessives who've spent years (and thousands of dollars) on espresso equipment. Our testing process includes:</p>
-        <ul>
-            <li><strong>Weeks of daily use</strong> — not just unboxing and first impressions</li>
-            <li><strong>Multiple grind/machine pairings</strong> — testing compatibility across setups</li>
-            <li><strong>Blind taste tests</strong> — eliminating bias from brand expectations</li>
-            <li><strong>Long-term durability tracking</strong> — checking back after months of use</li>
-        </ul>
-        <p>We only recommend products we'd buy ourselves (and many we already own).</p>
-
-        <h2>Espresso FAQ</h2>
-        <h4>How much should I spend on my first setup?</h4>
-        <p>Budget $400-$700 for a quality grinder + machine combo. The sweet spot is around $200 for a grinder (Baratza Encore ESP or 1Zpresso JX-Pro) and $400-$500 for a machine (Breville Bambino or Gaggia Classic Pro).</p>
-
-        <h4>Do I need a separate grinder?</h4>
-        <p>Unless your machine has a built-in grinder (like the Breville Barista Express), yes. Pre-ground espresso goes stale within minutes. A quality burr grinder is the single best investment for better espresso. See our <a href="/espresso-machines/best-espresso-grinder.html">grinder guide</a>.</p>
-
-        <h4>Semi-auto vs super-auto — which is better?</h4>
-        <p><strong>Semi-automatic</strong> machines give you control over extraction and are preferred by enthusiasts. <strong>Super-automatic</strong> machines do everything at the press of a button — ideal for convenience but less customizable. Both can make excellent drinks.</p>
-
-        <div style="background: #f8fafc; border-radius: 1rem; padding: 2rem; margin: 2rem 0;">
-            <h3 style="margin-top: 0;">More Categories</h3>
-            <p>Explore our other expert-tested guides:</p>
+            <h2 class="section-title">Why Trust Sparkling Picks?</h2>
+            <p>We're coffee obsessives who've spent years (and thousands of dollars) on espresso equipment. Our testing process includes:</p>
             <ul>
-                <li><a href="/power-stations/">Power Stations</a> — Portable power for camping, backup & emergencies</li>
-                <li><a href="/robot-vacuums/">Robot Vacuums</a> — Automated cleaning for every home</li>
-                <li><a href="/air-purifiers/">Air Purifiers</a> — Breathe easier at home</li>
-                <li><a href="/best-soda-makers.html">Soda Makers</a> — Make sparkling water at home</li>
+                <li><strong>Weeks of daily use</strong> — not just unboxing and first impressions</li>
+                <li><strong>Multiple grind/machine pairings</strong> — testing compatibility across setups</li>
+                <li><strong>Blind taste tests</strong> — eliminating bias from brand expectations</li>
+                <li><strong>Long-term durability tracking</strong> — checking back after months of use</li>
             </ul>
+            <p>We only recommend products we'd buy ourselves (and many we already own).</p>
+
+            <h2 class="section-title">Espresso FAQ</h2>
+            <h4>How much should I spend on my first setup?</h4>
+            <p>Budget $400-$700 for a quality grinder + machine combo. The sweet spot is around $200 for a grinder (Baratza Encore ESP or 1Zpresso JX-Pro) and $400-$500 for a machine (Breville Bambino or Gaggia Classic Pro).</p>
+
+            <h4>Do I need a separate grinder?</h4>
+            <p>Unless your machine has a built-in grinder (like the Breville Barista Express), yes. Pre-ground espresso goes stale within minutes. A quality burr grinder is the single best investment for better espresso. See our <a href="/espresso-machines/best-espresso-grinder.html">grinder guide</a>.</p>
+
+            <h4>Semi-auto vs super-auto — which is better?</h4>
+            <p><strong>Semi-automatic</strong> machines give you control over extraction and are preferred by enthusiasts. <strong>Super-automatic</strong> machines do everything at the press of a button — ideal for convenience but less customizable. Both can make excellent drinks.</p>
+
+            <div class="more-categories">
+                <h3>More Categories</h3>
+                <p>Explore our other expert-tested guides:</p>
+                <ul>
+                    <li><a href="/power-stations/">Power Stations</a> — Portable power for camping, backup & emergencies</li>
+                    <li><a href="/robot-vacuums/">Robot Vacuums</a> — Automated cleaning for every home</li>
+                    <li><a href="/e-bikes/">E-Bikes</a> — Electric bikes for commuting, cargo & fun</li>
+                    <li><a href="/standing-desks/">Standing Desks</a> — Healthier workdays with sit-stand desks</li>
+                    <li><a href="/air-purifiers/">Air Purifiers</a> — Breathe easier at home</li>
+                    <li><a href="/best-soda-makers.html">Soda Makers</a> — Make sparkling water at home</li>
+                </ul>
+            </div>
         </div>
-    </main>
+    </section>
 
     <footer class="site-footer">
         <div class="container">
@@ -205,6 +340,8 @@
                         <li><a href="/power-stations/">Power Stations</a></li>
                         <li><a href="/robot-vacuums/">Robot Vacuums</a></li>
                         <li><a href="/espresso-machines/">Espresso Machines</a></li>
+                        <li><a href="/e-bikes/">E-Bikes</a></li>
+                        <li><a href="/standing-desks/">Standing Desks</a></li>
                     </ul>
                 </div>
                 <div>

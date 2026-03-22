@@ -40,7 +40,7 @@
             margin: 0 0 1rem;
         }
         .category-hero p {
-            color: rgba(255,255,255,0.8);
+            color: rgba(255,255,255,0.85);
             font-size: 1.2rem;
             max-width: 600px;
             margin: 0 auto 2rem;
@@ -71,6 +71,56 @@
             font-weight: 700;
             margin: 0 0 1.5rem;
             color: #171717;
+        }
+        
+        .quick-picks {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            border: 2px solid #bfdbfe;
+        }
+        .quick-picks h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin: 0 0 1rem;
+            color: #171717;
+        }
+        .quick-pick-row {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            gap: 1rem;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .quick-pick-row:last-child {
+            border-bottom: none;
+        }
+        .quick-pick-name {
+            font-weight: 600;
+        }
+        .quick-pick-name span {
+            font-weight: 400;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+        .quick-pick-price {
+            font-weight: 700;
+            color: #15803d;
+        }
+        .quick-pick-btn {
+            background: #3b82f6;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .quick-pick-btn:hover {
+            background: #2563eb;
         }
         
         .article-grid {
@@ -116,81 +166,74 @@
             text-decoration: underline;
         }
         
-        .quick-links {
-            background: white;
-            border-radius: 1rem;
-            padding: 2rem;
-            margin-bottom: 2rem;
-        }
-        .quick-links h2 {
-            font-size: 1.25rem;
-            margin: 0 0 1rem;
-        }
-        .quick-links ul {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 0.75rem;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        .quick-links a {
-            color: #3b82f6;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .quick-links a:hover {
-            text-decoration: underline;
-        }
-        
         @media (max-width: 768px) {
             .article-grid { grid-template-columns: 1fr; }
-            .quick-links ul { grid-template-columns: 1fr; }
+            .quick-pick-row {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+                text-align: center;
+            }
         }
     </style>
 </head>
 <body>
 
-<div class="affiliate-bar">
-    We may earn a commission when you buy through our links. <a href="/about.html">Learn more</a>
-</div>
-
-<header class="site-header">
+<nav class="nav">
     <div class="container">
-        <a href="/" class="logo">Sparkling<span>Picks</span></a>
-        <nav class="nav-links">
+        <a href="/" class="logo">
+            <span class="logo-icon">✨</span>
+            <span class="logo-text">Sparkling Picks</span>
+        </a>
+        <div class="nav-links">
             <a href="/power-stations/best-portable-power-station.html">Power Stations</a>
             <a href="/robot-vacuums/best-robot-vacuum.html">Robot Vacuums</a>
             <a href="/espresso-machines/best-espresso-machine.html">Espresso</a>
             <a href="/e-bikes/best-electric-bike.html">E-Bikes</a>
             <a href="/best-soda-makers.html">Soda Makers</a>
-        
-        </nav>
+        </div>
     </div>
-</header>
+</nav>
 
 <section class="category-hero">
     <div class="container">
-        <h1>Air Purifier Reviews & Guides</h1>
-        <p>Expert-tested air purifiers for allergies, smoke, pets, and whole-home air quality. We test real performance, not marketing claims.</p>
+        <h1>Air Purifiers</h1>
+        <p>Expert-tested air purifiers for allergies, smoke, pets, and whole-home air quality. We test real CADR performance, not marketing claims.</p>
         <a href="best-air-purifier.html" class="featured-cta">🏆 See Our #1 Pick</a>
     </div>
 </section>
 
-<main class="content-section">
+<section class="content-section">
     <div class="container">
-        
-        <div class="quick-links">
-            <h2>⚡ Quick Navigation</h2>
-            <ul>
-                <li><a href="best-air-purifier.html">Best Air Purifiers 2026</a></li>
-                <li><a href="best-air-purifier-for-allergies.html">Best Air Purifier for Allergies</a></li>
-                <li><a href="best-air-purifier-for-pets.html">Best Air Purifier for Pets</a></li>
-                <li><a href="#">Best Air Purifier for Smoke</a> <span style="color:#94a3b8; font-size:0.8rem;">(coming soon)</span></li>
-            </ul>
+        <div class="quick-picks">
+            <h3>🌬️ Quick Picks — Top Air Purifiers 2026</h3>
+            <div class="quick-pick-row">
+                <div class="quick-pick-name">Coway AP-1512HH Mighty <span>Best Overall</span></div>
+                <div class="quick-pick-price">$229</div>
+                <a href="https://www.amazon.com/dp/B01728NLRG?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+            </div>
+            <div class="quick-pick-row">
+                <div class="quick-pick-name">Levoit Core 400S <span>Best for Pets</span></div>
+                <div class="quick-pick-price">$219</div>
+                <a href="https://www.amazon.com/dp/B08L73QL1V?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+            </div>
+            <div class="quick-pick-row">
+                <div class="quick-pick-name">Blueair Blue Pure 411 <span>Best Budget</span></div>
+                <div class="quick-pick-price">$119</div>
+                <a href="https://www.amazon.com/dp/B06ZXQ2BKZ?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+            </div>
+            <div class="quick-pick-row">
+                <div class="quick-pick-name">Dyson Purifier Hot+Cool <span>Best Premium</span></div>
+                <div class="quick-pick-price">$569</div>
+                <a href="https://www.amazon.com/dp/B09MKW6G1H?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+            </div>
+            <div class="quick-pick-row">
+                <div class="quick-pick-name">Winix 5500-2 <span>Best for Allergies</span></div>
+                <div class="quick-pick-price">$159</div>
+                <a href="https://www.amazon.com/dp/B01D8DAYII?tag=sparkpicks-20" class="quick-pick-btn" target="_blank" rel="nofollow noopener">View on Amazon →</a>
+            </div>
         </div>
 
-        <h2 class="section-title">Buying Guides</h2>
+        <h2 class="section-title">📋 Buying Guides</h2>
         <div class="article-grid">
             <div class="article-card">
                 <h3><a href="best-air-purifier.html">Best Air Purifiers 2026</a></h3>
@@ -198,12 +241,12 @@
                 <a href="best-air-purifier.html" class="read-link">Read Guide →</a>
             </div>
             <div class="article-card">
-                <h3><a href="best-air-purifier-for-allergies.html">Best Air Purifiers for Allergies</a></h3>
+                <h3><a href="best-air-purifier-for-allergies.html">Best for Allergies</a></h3>
                 <p>True HEPA filters tested for pollen, dust mites, pet dander, and mold. Find real relief.</p>
                 <a href="best-air-purifier-for-allergies.html" class="read-link">Read Guide →</a>
             </div>
             <div class="article-card">
-                <h3><a href="best-air-purifier-for-pets.html">Best Air Purifiers for Pets</a></h3>
+                <h3><a href="best-air-purifier-for-pets.html">Best for Pets</a></h3>
                 <p>Eliminate pet dander, hair, and odors. The Levoit Core 400S leads our tested picks for pet owners.</p>
                 <a href="best-air-purifier-for-pets.html" class="read-link">Read Guide →</a>
             </div>
@@ -212,30 +255,53 @@
         <h2 class="section-title">Explore Other Categories</h2>
         <div class="article-grid">
             <div class="article-card">
-                <h3><a href="/robot-vacuums/best-robot-vacuum.html">Robot Vacuums</a></h3>
+                <h3><a href="/robot-vacuums/">Robot Vacuums</a></h3>
                 <p>Self-cleaning, pet hair specialists, and budget picks. Find the right robot vacuum for your home.</p>
                 <a href="/robot-vacuums/" class="read-link">Browse Robot Vacuums →</a>
             </div>
             <div class="article-card">
-                <h3><a href="/power-stations/best-portable-power-station.html">Power Stations</a></h3>
+                <h3><a href="/power-stations/">Power Stations</a></h3>
                 <p>Portable power for camping, emergencies, and off-grid living. Jackery, EcoFlow, Bluetti compared.</p>
                 <a href="/power-stations/" class="read-link">Browse Power Stations →</a>
             </div>
             <div class="article-card">
-                <h3><a href="/best-soda-makers.html">Soda Makers</a></h3>
-                <p>SodaStream, Aarke, and DrinkMate tested. Make sparkling water at home for pennies.</p>
-                <a href="/best-soda-makers.html" class="read-link">Browse Soda Makers →</a>
+                <h3><a href="/espresso-machines/">Espresso Machines</a></h3>
+                <p>Expert-tested setups for home baristas. Breville, Gaggia, and grinders from $200-$2,000.</p>
+                <a href="/espresso-machines/" class="read-link">Browse Espresso →</a>
             </div>
         </div>
 
     </div>
-</main>
+</section>
 
-<footer style="background: #171717; color: white; padding: 3rem 1rem;">
-    <div class="container" style="text-align: center;">
-        <p style="margin: 0 0 1rem;"><a href="/" style="color: white; text-decoration: none; font-weight: 700; font-size: 1.25rem;">Sparkling<span style="color: #3b82f6;">Picks</span></a></p>
-        <p style="color: rgba(255,255,255,0.6); font-size: 0.875rem; margin: 0 0 1rem;">Expert-tested product recommendations.</p>
-        <p style="color: rgba(255,255,255,0.4); font-size: 0.75rem;">As an Amazon Associate, we earn from qualifying purchases. | <a href="/about.html" style="color: rgba(255,255,255,0.6);">About</a> | <a href="/contact.html" style="color: rgba(255,255,255,0.6);">Contact</a></p>
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h4>Sparkling Picks</h4>
+                <p>Expert-tested product recommendations to help you make confident buying decisions.</p>
+            </div>
+            <div>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="/best-soda-makers.html">Soda Makers</a></li>
+                    <li><a href="/power-stations/">Power Stations</a></li>
+                    <li><a href="/robot-vacuums/">Robot Vacuums</a></li>
+                    <li><a href="/espresso-machines/">Espresso Machines</a></li>
+                    <li><a href="/e-bikes/">E-Bikes</a></li>
+                    <li><a href="/air-purifiers/">Air Purifiers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-disclaimer">As an Amazon Associate, we earn from qualifying purchases. Prices shown are approximate and may change.</p>
+        <p class="footer-copyright">© 2026 Sparkling Picks. All rights reserved.</p>
     </div>
 </footer>
 
