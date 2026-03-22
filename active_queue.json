@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T03:14:00Z",
+  "last_updated": "2026-03-22T03:44:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -81,7 +81,7 @@
       "hypothesis": "Outdoor power sub-pages (leaf blowers, trimmers) build category authority",
       "priority": 10,
       "status": "in_progress",
-      "note": "2026-03-22: Added best-cordless-leaf-blower.html (8 products, $179-449 AOV) + outdoor-power/index.html. Spring timing optimal."
+      "note": "2026-03-22: Added best-cordless-string-trimmer.html (8 products, $99-399 AOV). Completes yard tool trio: blower, chainsaw, trimmer. Spring timing optimal."
     },
     {
       "id": "EXP-015",
