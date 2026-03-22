@@ -95,7 +95,8 @@
       "type": "topical_cluster",
       "hypothesis": "Espresso sub-pages (grinders, specific brands) build topical authority",
       "priority": 12,
-      "status": "queued"
+      "status": "in_progress",
+      "note": "2026-03-22: Added best-espresso-grinder.html (6 products, $169-$499 AOV) + category index. Pillar updated with grinder cross-links."
     }
   ]
 }
