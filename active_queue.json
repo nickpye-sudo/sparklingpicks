@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T07:44:00Z",
+  "last_updated": "2026-03-22T14:14:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -97,6 +97,14 @@
       "priority": 12,
       "status": "in_progress",
       "note": "2026-03-22: Added best-espresso-grinder.html (6 products, $169-$499 AOV) + category index. Pillar updated with grinder cross-links."
+    },
+    {
+      "id": "EXP-017",
+      "type": "category_structure",
+      "hypothesis": "Category index pages capture category-level queries and improve hub-spoke linking",
+      "priority": 13,
+      "status": "in_progress",
+      "note": "2026-03-22: Added standing-desks/index.html with CRO (quick-pick above fold with price + Amazon button, FAQ, brand overview). Standing desks = $400-800 AOV."
     }
   ]
 }

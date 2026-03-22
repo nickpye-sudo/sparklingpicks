@@ -23,6 +23,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
+  <url>
+    <loc>https://sparklingpicks.com/standing-desks/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
 
   <!-- Air Purifiers - Pillar Pages -->
   <url>
