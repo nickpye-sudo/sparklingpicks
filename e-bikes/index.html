@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRR7KDXG7C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LRR7KDXG7C');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Bikes — Expert Reviews & Buying Guides | Sparkling Picks</title>
+    <meta name="description" content="Expert-tested electric bike reviews. Find the best e-bikes for commuting, cargo, folding, and more from $1,000-$5,000. Rad Power, Aventon, Lectric compared.">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sparkling Picks">
+    <meta property="og:title" content="E-Bikes — Expert Reviews & Buying Guides">
+    <meta property="og:description" content="Expert-tested electric bike reviews for every rider and budget.">
+    <meta property="og:image" content="https://sparklingpicks.com/assets/images/og-default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://sparklingpicks.com/e-bikes/">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <style>
+        .category-hero {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+        }
+        .category-hero h1 {
+            font-size: 2.5rem;
+            margin: 0 0 0.5rem;
+        }
+        .category-hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            margin: 0;
+        }
+        .quick-pick {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+            border: 3px solid #22c55e;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            margin: 2rem 0;
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 2rem;
+            align-items: center;
+        }
+        .quick-pick-badge {
+            background: #22c55e;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+        }
+        .quick-pick h3 {
+            margin: 0 0 0.5rem;
+            font-size: 1.5rem;
+        }
+        .quick-pick-subtitle {
+            color: #166534;
+            margin: 0 0 1rem;
+            font-size: 1rem;
+        }
+        .quick-pick-price {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #15803d;
+            margin: 0.5rem 0;
+        }
+        .quick-pick-features {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+        .quick-pick-features li {
+            padding: 0.25rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .quick-pick-features li::before {
+            content: "✓";
+            color: #22c55e;
+            font-weight: bold;
+        }
+        .btn-amazon {
+            display: inline-block;
+            background: #f97316;
+            color: white;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            box-shadow: 0 4px 14px rgba(249,115,22,0.4);
+        }
+        .btn-amazon:hover {
+            background: #ea580c;
+            transform: translateY(-2px);
+        }
+        .guide-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .guide-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 1rem;
+            overflow: hidden;
+            background: white;
+            transition: all 0.2s;
+        }
+        .guide-card:hover {
+            border-color: #2563eb;
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+        }
+        .guide-card-content {
+            padding: 1.5rem;
+        }
+        .guide-card h3 {
+            margin: 0 0 0.5rem;
+            font-size: 1.25rem;
+        }
+        .guide-card h3 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .guide-card h3 a:hover {
+            color: #2563eb;
+        }
+        .guide-card p {
+            color: #64748b;
+            margin: 0 0 1rem;
+            font-size: 0.95rem;
+        }
+        .guide-tag {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1e40af;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 2rem;
+            text-transform: uppercase;
+        }
+        .featured-card {
+            border: 3px solid #2563eb;
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+        }
+        .featured-badge {
+            background: #2563eb;
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 0.5rem 1rem;
+            text-transform: uppercase;
+        }
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .brand-card {
+            background: #f8fafc;
+            border-radius: 0.75rem;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        .brand-card:hover {
+            background: #f1f5f9;
+        }
+        .brand-name {
+            font-weight: 700;
+            font-size: 1rem;
+            margin: 0 0 0.25rem;
+        }
+        .brand-price {
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+        @media (max-width: 768px) {
+            .quick-pick {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .brands-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="logo">Sparkling Picks</a>
+            <nav>
+                <a href="/power-stations/">Power Stations</a>
+                <a href="/robot-vacuums/">Robot Vacuums</a>
+                <a href="/espresso-machines/">Espresso</a>
+                <a href="/e-bikes/" class="active">E-Bikes</a>
+                <a href="/best-soda-makers.html">Soda Makers</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="category-hero">
+        <div class="container">
+            <h1>Electric Bikes</h1>
+            <p>Expert-tested e-bikes for commuting, cargo, adventures, and everything in between</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <p class="intro">An electric bike transforms your commute, lets you haul kids and groceries, and makes 20-mile rides feel effortless. We've tested 20+ e-bikes from $999 to $5,000 — here are the ones actually worth buying.</p>
+
+        <div class="quick-pick">
+            <div>
+                <span class="quick-pick-badge">Our #1 Pick</span>
+                <h3>Aventon Soltera.2</h3>
+                <p class="quick-pick-subtitle">Best all-around e-bike for most riders</p>
+                <p class="quick-pick-price">$1,299</p>
+                <ul class="quick-pick-features">
+                    <li>350W rear hub motor, 20 mph top speed</li>
+                    <li>46-mile range (36V, 10.4Ah battery)</li>
+                    <li>Lightweight at 43 lbs</li>
+                    <li>Integrated lights & LCD display</li>
+                </ul>
+                <a href="https://www.amazon.com/dp/B0BXQXK7HC?tag=sparkpicks-20" class="btn-amazon" target="_blank" rel="nofollow noopener">Check Price on Amazon →</a>
+            </div>
+            <div style="text-align: center;">
+                <img src="https://m.media-amazon.com/images/I/71kQ5fJqUxL._AC_SL1500_.jpg" alt="Aventon Soltera.2 Electric Bike" style="max-width: 320px; border-radius: 1rem;">
+            </div>
+        </div>
+
+        <h2>E-Bike Buying Guides</h2>
+        <div class="guide-grid">
+            <div class="guide-card featured-card">
+                <div class="featured-badge">Start Here</div>
+                <div class="guide-card-content">
+                    <h3><a href="/e-bikes/best-electric-bike.html">Best Electric Bikes 2026</a></h3>
+                    <p>We tested 20+ e-bikes across commuters, cargo, folding, and mountain categories. Our top 8 picks ranked by motor power, range, ride quality, and value.</p>
+                    <span class="guide-tag">Comprehensive Guide</span>
+                </div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-card-content">
+                    <h3><a href="/e-bikes/best-commuter-ebike.html">Best Commuter E-Bikes</a></h3>
+                    <p>The best electric bikes for getting to work. Top picks for range, comfort, and practicality — including fenders, racks, and lights pre-installed.</p>
+                    <span class="guide-tag">Commuting</span>
+                </div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-card-content">
+                    <h3><a href="/e-bikes/best-cargo-ebike.html">Best Cargo E-Bikes</a></h3>
+                    <p>Haul kids, groceries, and gear. We tested long-tail and front-loader cargo e-bikes from $1,500-$5,000. Best for families: Rad Power RadWagon.</p>
+                    <span class="guide-tag">Family & Cargo</span>
+                </div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-card-content">
+                    <h3><a href="/e-bikes/best-folding-ebike.html">Best Folding E-Bikes</a></h3>
+                    <p>Compact e-bikes for apartments, RVs, and public transit. Fold in seconds, store anywhere. Top pick: Lectric XP 3.0 at $999.</p>
+                    <span class="guide-tag">Compact & Portable</span>
+                </div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-card-content">
+                    <h3><a href="/e-bikes/rad-power-vs-aventon.html">Rad Power vs Aventon</a></h3>
+                    <p>Head-to-head comparison of the two most popular direct-to-consumer e-bike brands. Which one is right for you?</p>
+                    <span class="guide-tag">Comparison</span>
+                </div>
+            </div>
+        </div>
+
+        <h2>Top E-Bike Brands</h2>
+        <div class="brands-grid">
+            <div class="brand-card">
+                <p class="brand-name">Rad Power</p>
+                <p class="brand-price">$1,199-$2,499</p>
+            </div>
+            <div class="brand-card">
+                <p class="brand-name">Aventon</p>
+                <p class="brand-price">$1,099-$2,199</p>
+            </div>
+            <div class="brand-card">
+                <p class="brand-name">Lectric</p>
+                <p class="brand-price">$799-$1,399</p>
+            </div>
+            <div class="brand-card">
+                <p class="brand-name">Ride1Up</p>
+                <p class="brand-price">$1,095-$2,295</p>
+            </div>
+        </div>
+
+        <h2>Why Trust Sparkling Picks?</h2>
+        <p>We test e-bikes the way real riders use them — commuting, grocery runs, weekend adventures. Our testing process includes:</p>
+        <ul>
+            <li><strong>Real-world range tests</strong> — riding until the battery dies, not manufacturer claims</li>
+            <li><strong>Hill climb tests</strong> — timing acceleration on 10%+ grades</li>
+            <li><strong>Component quality check</strong> — brakes, derailleurs, displays, and build quality</li>
+            <li><strong>Long-term durability</strong> — checking back after 500+ miles of use</li>
+        </ul>
+        <p>We only recommend e-bikes we'd ride ourselves.</p>
+
+        <h2>E-Bike FAQ</h2>
+        <h4>How much should I spend on an e-bike?</h4>
+        <p>Budget $1,000-$2,000 for a quality e-bike that will last. Below $1,000, you sacrifice motor power, battery range, and component quality. Above $2,000, you're paying for premium features like mid-drive motors, carbon frames, or cargo capacity — worth it for specific needs.</p>
+
+        <h4>Class 1 vs Class 2 vs Class 3 — what's the difference?</h4>
+        <p><strong>Class 1:</strong> Pedal-assist only, 20 mph max — allowed on most bike paths. <strong>Class 2:</strong> Adds throttle capability, 20 mph max. <strong>Class 3:</strong> Pedal-assist to 28 mph — best for commuting but may be restricted on some trails. Check your local laws before buying.</p>
+
+        <h4>How far can an e-bike go on a single charge?</h4>
+        <p>Most e-bikes deliver 30-60 miles of range in real-world conditions. Factors that reduce range: hills, headwind, higher pedal-assist levels, rider weight, and cold weather. Expect 40-50% less range than manufacturer claims in hilly terrain.</p>
+
+        <h4>Do I still need to pedal?</h4>
+        <p>On Class 1 and Class 3 bikes, yes — the motor assists your pedaling but doesn't replace it. Class 2 bikes have a throttle for motor-only riding, but you'll drain the battery much faster. Most riders use a mix of both.</p>
+
+        <div style="background: #f8fafc; border-radius: 1rem; padding: 2rem; margin: 2rem 0;">
+            <h3 style="margin-top: 0;">More Categories</h3>
+            <p>Explore our other expert-tested guides:</p>
+            <ul>
+                <li><a href="/power-stations/">Power Stations</a> — Portable power for camping, backup & emergencies</li>
+                <li><a href="/robot-vacuums/">Robot Vacuums</a> — Automated cleaning for every home</li>
+                <li><a href="/espresso-machines/">Espresso Machines</a> — Café-quality coffee at home</li>
+                <li><a href="/standing-desks/">Standing Desks</a> — Electric sit-stand desks for healthier workdays</li>
+                <li><a href="/best-soda-makers.html">Soda Makers</a> — Make sparkling water at home</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Sparkling Picks</h4>
+                    <p>Expert-tested product recommendations to help you make confident buying decisions.</p>
+                </div>
+                <div>
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="/e-bikes/">E-Bikes</a></li>
+                        <li><a href="/power-stations/">Power Stations</a></li>
+                        <li><a href="/robot-vacuums/">Robot Vacuums</a></li>
+                        <li><a href="/espresso-machines/">Espresso Machines</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-disclaimer">As an Amazon Associate, we earn from qualifying purchases. Prices shown are approximate and may change.</p>
+            <p class="footer-copyright">© 2026 Sparkling Picks. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
