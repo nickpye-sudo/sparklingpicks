@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T22:44:00Z",
+  "last_updated": "2026-03-22T02:14:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -49,7 +49,7 @@
       "hypothesis": "Problem-solution pages (e.g. 'power station for CPAP') convert better than generic guides",
       "priority": 6,
       "status": "in_progress",
-      "note": "2026-03-21: Added best-robot-vacuum-for-allergies.html (HEPA, $599-1,399 AOV). Prev: self-emptying, carpet"
+      "note": "2026-03-22: Added best-robot-vacuum-for-multi-story-homes.html (multi-floor mapping, $399-1,499 AOV). Prev: allergies, self-emptying, carpet"
     },
     {
       "id": "EXP-011",
