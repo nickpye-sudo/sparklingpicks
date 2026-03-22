@@ -88,7 +88,8 @@
       "type": "niche_selection",
       "hypothesis": "Gaming chairs ($200-600 AOV) have high volume and established affiliate presence",
       "priority": 11,
-      "status": "queued"
+      "status": "in_progress",
+      "note": "2026-03-22: Created gaming-chairs category with index.html + best-gaming-chair.html pillar (8 products, $139-1,695 AOV). CRO: winner card above fold, prices visible, Amazon links prominent."
     },
     {
       "id": "EXP-016",
