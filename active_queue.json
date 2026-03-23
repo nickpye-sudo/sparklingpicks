@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22T14:44:00Z",
+  "last_updated": "2026-03-23T05:14:00Z",
   "queue": [
     {
       "id": "EXP-004",
@@ -70,10 +70,10 @@
     {
       "id": "EXP-013",
       "type": "topical_cluster",
-      "hypothesis": "E-bike sub-pages (folding, commuter, cargo) will capture long-tail traffic",
+      "hypothesis": "E-bike sub-pages (folding, commuter, cargo, fat tire) will capture long-tail traffic",
       "priority": 9,
-      "status": "complete",
-      "note": "Completed: commuter, folding, cargo sub-pages (2026-03-08). E-bike cluster now has 5 pages."
+      "status": "in_progress",
+      "note": "2026-03-23: Added best-fat-tire-ebike.html (8 products, $1,399-$3,499 AOV). High-AOV all-terrain category. E-bike cluster now has 9 pages: pillar, commuter, cargo, folding, budget, seniors, brand-comparison, fat-tire, index."
     },
     {
       "id": "EXP-014",
