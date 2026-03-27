@@ -415,6 +415,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://sparklingpicks.com/e-bikes/best-class-3-ebike.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Espresso Machines -->
   <url>
