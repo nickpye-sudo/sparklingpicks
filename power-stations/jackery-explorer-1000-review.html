@@ -42,7 +42,21 @@
 .btn-amazon{display:inline-block;background:#f97316;color:white;font-weight:700;padding:1rem 2rem;border-radius:0.75rem;text-decoration:none}
 .verdict-box{background:linear-gradient(135deg,#fef3c7 0%,#fde68a 100%);border:3px solid #eab308;border-radius:1.5rem;padding:2.5rem;margin:3rem 0;text-align:center}
 .verdict-box .score-large{font-size:4rem;font-weight:800;color:#a16207;margin-bottom:1rem}
-@media(max-width:768px){.review-hero-inner{grid-template-columns:1fr}.pros-cons{grid-template-columns:1fr}}
+.quick-compare{background:#f0f9ff;border:2px solid #0284c7;border-radius:1rem;padding:1.5rem;margin:2rem 0}
+.quick-compare h3{margin:0 0 1rem;color:#0369a1;font-size:1.1rem}
+.compare-table{width:100%;border-collapse:collapse;background:white;border-radius:0.75rem;overflow:hidden}
+.compare-table th{background:#f8fafc;padding:0.75rem;text-align:left;font-size:0.85rem;font-weight:600;color:#64748b}
+.compare-table td{padding:0.75rem;border-bottom:1px solid #e2e8f0;font-size:0.9rem}
+.compare-table tr:last-child td{border-bottom:none}
+.text-muted{color:#64748b;font-size:0.8rem}
+.price-cell{font-weight:700;color:#15803d}
+.recommended-row{background:#f0fdf4}
+.btn-sm{display:inline-block;background:#f97316;color:white;font-weight:600;padding:0.5rem 1rem;border-radius:0.5rem;text-decoration:none;font-size:0.85rem}
+.btn-sm:hover{background:#ea580c}
+.btn-recommended{background:#22c55e}
+.btn-recommended:hover{background:#16a34a}
+.cta-inline{display:inline-block;background:#f97316;color:white;font-weight:600;padding:0.5rem 1rem;border-radius:0.5rem;text-decoration:none;margin:0.5rem 0}
+@media(max-width:768px){.review-hero-inner{grid-template-columns:1fr}.pros-cons{grid-template-columns:1fr}.compare-table{font-size:0.8rem}.compare-table th,.compare-table td{padding:0.5rem}}
 </style>
 </head>
 <body>
@@ -67,6 +81,47 @@
 <main class="article-content">
 <article>
 <p class="article-meta">Last updated: March 2026</p>
+
+<div class="quick-compare">
+<h3>⚡ Quick Comparison: Explorer 1000 vs Alternatives</h3>
+<table class="compare-table">
+<tr>
+<th>Model</th>
+<th>Battery</th>
+<th>Charge Time</th>
+<th>Price</th>
+<th></th>
+</tr>
+<tr>
+<td><strong>Jackery 1000</strong><br><span class="text-muted">This review</span></td>
+<td>NMC (500 cycles)</td>
+<td>5.5 hours</td>
+<td class="price-cell">$799</td>
+<td><a href="https://www.amazon.com/dp/B083KBKJ8Q?tag=sparkpicks-20" class="btn-sm" target="_blank" rel="nofollow noopener">Buy</a></td>
+</tr>
+<tr class="recommended-row">
+<td><strong>EcoFlow Delta 2</strong><br><span class="text-muted">Our Pick ⭐</span></td>
+<td>LFP (3,000 cycles)</td>
+<td>80 min</td>
+<td class="price-cell">$799</td>
+<td><a href="https://www.amazon.com/dp/B0BFBFLBSK?tag=sparkpicks-20" class="btn-sm btn-recommended" target="_blank" rel="nofollow noopener">Buy</a></td>
+</tr>
+<tr>
+<td><strong>Jackery 1000 Plus</strong><br><span class="text-muted">Upgraded model</span></td>
+<td>LFP (4,000 cycles)</td>
+<td>1.7 hours</td>
+<td class="price-cell">$1,199</td>
+<td><a href="https://www.amazon.com/dp/B0CG5MN2YK?tag=sparkpicks-20" class="btn-sm" target="_blank" rel="nofollow noopener">Buy</a></td>
+</tr>
+<tr>
+<td><strong>Bluetti EB70S</strong><br><span class="text-muted">Budget option</span></td>
+<td>LFP (2,500 cycles)</td>
+<td>3.5 hours</td>
+<td class="price-cell">$399</td>
+<td><a href="https://www.amazon.com/dp/B097P5L1LT?tag=sparkpicks-20" class="btn-sm" target="_blank" rel="nofollow noopener">Buy</a></td>
+</tr>
+</table>
+</div>
 
 <h2 id="verdict" class="section-heading">Quick Verdict</h2>
 
@@ -144,6 +199,11 @@
 
 <p>LFP batteries also handle deep discharge better and are safer (lower fire risk). There's a reason every major brand has switched to LFP for new models.</p>
 
+<div style="background:#fef3c7;border:2px solid #f59e0b;border-radius:1rem;padding:1.5rem;margin:2rem 0;text-align:center">
+<p style="margin:0 0 1rem;font-weight:600;color:#92400e">🔋 Want 6x longer battery life at the same price?</p>
+<a href="https://www.amazon.com/dp/B0BFBFLBSK?tag=sparkpicks-20" class="btn-amazon" target="_blank" rel="nofollow noopener" style="margin-right:0.5rem">Get the EcoFlow Delta 2 — $799</a>
+</div>
+
 <h2 id="charging" class="section-heading">Charging Speed</h2>
 
 <p>The Explorer 1000 charges slowly—painfully slowly by 2026 standards:</p>
@@ -178,11 +238,31 @@
 
 <h2 id="vs" class="section-heading">Explorer 1000 vs Alternatives</h2>
 
-<p><strong><a href="jackery-explorer-1000-plus-review.html">Jackery 1000 Plus</a> ($1,199):</strong> The direct successor. LFP battery (4,000 cycles), faster charging (1.7 hours), expandable to 5,000Wh. Worth the extra $400.</p>
+<div style="display:grid;gap:1rem;margin:2rem 0">
+<div style="background:#f0fdf4;border:2px solid #22c55e;border-radius:1rem;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem">
+<div>
+<p style="margin:0;font-weight:700;color:#15803d">⭐ Our Recommendation: EcoFlow Delta 2</p>
+<p style="margin:0.5rem 0 0;color:#166534;font-size:0.9rem">Same price, LFP battery (3,000 cycles), 80min charge, expandable. <a href="ecoflow-delta-2-review.html">Read review →</a></p>
+</div>
+<a href="https://www.amazon.com/dp/B0BFBFLBSK?tag=sparkpicks-20" class="btn-sm btn-recommended" target="_blank" rel="nofollow noopener" style="white-space:nowrap">$799 on Amazon</a>
+</div>
 
-<p><strong><a href="ecoflow-delta-2-review.html">EcoFlow Delta 2</a> ($799):</strong> Same price, vastly superior. LFP battery (3,000 cycles), 80% charge in 50 minutes, expandable, better app. This is what you should buy.</p>
+<div style="background:#fff;border:2px solid #e2e8f0;border-radius:1rem;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem">
+<div>
+<p style="margin:0;font-weight:700">Jackery 1000 Plus</p>
+<p style="margin:0.5rem 0 0;color:#64748b;font-size:0.9rem">LFP battery (4,000 cycles), 1.7hr charge, expandable to 5,000Wh. <a href="jackery-explorer-1000-plus-review.html">Read review →</a></p>
+</div>
+<a href="https://www.amazon.com/dp/B0CG5MN2YK?tag=sparkpicks-20" class="btn-sm" target="_blank" rel="nofollow noopener" style="white-space:nowrap">$1,199 on Amazon</a>
+</div>
 
-<p><strong><a href="best-budget-power-station.html">Bluetti EB70S</a> ($399):</strong> Less capacity (716Wh) but half the price with an LFP battery. Better value for occasional use.</p>
+<div style="background:#fff;border:2px solid #e2e8f0;border-radius:1rem;padding:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem">
+<div>
+<p style="margin:0;font-weight:700">Bluetti EB70S — Budget Pick</p>
+<p style="margin:0.5rem 0 0;color:#64748b;font-size:0.9rem">716Wh capacity, LFP battery, half the price. <a href="best-budget-power-station.html">Read review →</a></p>
+</div>
+<a href="https://www.amazon.com/dp/B097P5L1LT?tag=sparkpicks-20" class="btn-sm" target="_blank" rel="nofollow noopener" style="white-space:nowrap">$399 on Amazon</a>
+</div>
+</div>
 
 <h2 id="faq" class="section-heading">FAQ</h2>
 
