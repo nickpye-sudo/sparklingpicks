@@ -482,6 +482,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
+  <url>
+    <loc>https://sparklingpicks.com/espresso-machines/best-nespresso-machine.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
 
   <!-- Standing Desks -->
   <url>
