@@ -426,6 +426,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://sparklingpicks.com/e-bikes/best-ebike-deals.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
     <loc>https://sparklingpicks.com/e-bikes/best-ebike-for-seniors.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
