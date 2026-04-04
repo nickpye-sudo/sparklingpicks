@@ -950,6 +950,11 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://sparklingpicks.com/gaming-chairs/best-gaming-chair-deals.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
     <loc>https://sparklingpicks.com/air-purifiers/best-smart-air-purifier.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
