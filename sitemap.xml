@@ -56,6 +56,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://sparklingpicks.com/air-purifiers/best-air-purifier-deals.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
 
   <!-- Power Stations - Pillar Pages -->
   <url>
