@@ -436,6 +436,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://sparklingpicks.com/e-bikes/best-ebike-under-2000.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://sparklingpicks.com/e-bikes/best-ebike-deals.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.90</priority>
